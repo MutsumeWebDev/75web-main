@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@keyframes pukapuka {
+    0% {
+      transform: translateY(0);
+    }
+    33.33333% {
+      transform: translateY(-10px);
+    }
+    66.66667% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
