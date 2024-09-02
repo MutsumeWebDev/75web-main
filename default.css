@@ -1,0 +1,17 @@
+@charset "UTF-8";
+html{
+    scroll-behavior: smooth;
+}
+.top{
+    position: relative;
+    height: 100vh;
+}
+h1, h2, h3{
+    text-align: center;
+}
+@media screen and (max-width: 430px) {
+    .top__upper{
+        position: relative;
+        height: 66vh;
+    }
+}
