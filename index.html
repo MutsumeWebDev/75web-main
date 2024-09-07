@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>第75回むつめ祭ティザーサイト</title>
     <!--javascript-->
-    <script type="text/javascript" src="system.js"></script>
+    <script type="text/javascript" src="system.js" defer></script>
     <!--layout-->
     <link rel="stylesheet" href="default.css">
     <link rel="stylesheet" href="">
@@ -20,11 +20,16 @@
             </p>
         </div>
     </noscript>
-    <script type="text/javascript">
-        mutsume_header();
-    </script>
     <main>
         <section class="top">
+            <div id="header" class="header">
+                <a href="">
+                    <img class="header__img" src="" alt="">
+                </a>
+                <a href="">
+                    <h2 class="header__ttl">Pop Tone</h2>
+                </a>
+            </div>
             <div class="top__upper">
                 <h1 class="main__ttl">Pop Tone</h1>
                 <div class="bubble1"></div>
@@ -32,11 +37,9 @@
                 <div class="bubble3"></div>
                 <div class="bubble4"></div>
                 <div class="bubble5"></div>
+                <div class="bubble6"></div>
             </div>
-            <!--scroll-->
-            <script type="text/javascript">
-                mutsume_slider();
-            </script>
+            <div id="slider"></div>
         </section>
         <section class="entrance__ticket">
             <h2 class="">入場チケット</h2>
@@ -74,8 +77,5 @@
         </section>
     </main>
     <!--footer-->
-    <script type="text/javascript">
-        mutsume_footer();
-    </script>
 </body>
 </html>
