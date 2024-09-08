@@ -28,5 +28,18 @@ for (let i = 0; i < dataset.length; i++){
     slider.insertAdjacentHTML('beforeend', content);
 }
 
-//header & menubar
+//header
 const header = document.querySelector('#header');
+const scrollAmount = scrollY;
+if(scrollAmount > 150){
+    header.classList.add("scrolled");
+}
+else{
+    header.classList.remove("scrolled");
+}
+
+//menubar
+const menuOpen = document.querySelector('#menu_open');
+menuOpen.addEventListener('click', () => {
+    menuOpen.classList.add(menu_on);
+});
