@@ -9,7 +9,7 @@ const dataset = [
     {
         title: '乃紫さんライブ',
         img: 'character_mutsumechan.png',
-        url: '',
+        url: 'slider_noa.html',
     },
     {
         title: '梶裕貴さんトークショー',
