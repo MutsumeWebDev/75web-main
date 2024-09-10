@@ -2,12 +2,54 @@
 html{
     scroll-behavior: smooth;
 }
+dt,dd{
+    margin:0;
+    padding:0;
+}
+:root{
+    --main-color: #00cad1;
+}
 .top{
     position: relative;
     height: 100vh;
 }
 h1, h2, h3{
     text-align: center;
+    margin:0;
+    padding:0;
+
+}
+.talk__detail{
+    display: relative;
+    margin:0 20px;
+    border-radius:14px;
+    border: solid 2px var(--main-color);
+}
+.detail__ttl{
+    color:white;
+    background-color: var(--main-color);
+    padding:0.6em;    
+    border-radius: 10px 10px 0 0;
+}
+.detail__content{
+    margin:0 5%;
+    
+}
+.detail__list{
+    padding:2em 0;
+    border-bottom: dashed 1px var(--main-color);
+}
+.detail__list dt{
+    margin:0 auto .5em;
+    width:12em;
+    text-align: center;
+    border:solid 1px var(--main-color);
+    line-height:2;
+    border-radius:5px;
+}
+.detail__list dd{
+    text-align: center;
+    margin-bottom: 1.5em;
 }
 @media screen and (max-width: 430px) {
     .top__upper{
