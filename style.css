@@ -1,5 +1,14 @@
 @charset "UTF-8";
-
+@font-face {
+  font-family: 'zen maru';
+  src: url(ZenMaruGothic-Regular.ttf) format('truetype');
+}
+.main__ttl{
+  font-family: 'zen maru';
+}
+.mutsumefes,.date__ttl{
+  font-family: 'zen maru';
+}
 @keyframes pukapuka {
     0% {
       transform: translateY(0);
