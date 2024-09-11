@@ -14,7 +14,7 @@ const dataset = [
     {
         title: '梶裕貴さんトークショー',
         img: 'character_mutsumechan.png',
-        url: '',
+        url: 'slider_talkshow.html',
     },
     {
         title: 'ホームカミングデー',
@@ -24,7 +24,7 @@ const dataset = [
 ];
 for (let i = 0; i < dataset.length; i++){
     const {title, img, url} = dataset[i];
-    const content = `<div class="slider${i}"><a href="${url}"><img src="${img}" alt="${title}"><h2>${title}</h2></a></div>`;
+    const content = `<div class="slider__content"><a href="${url}"><img src="${img}" alt="${title}"><h2>${title}</h2></a></div>`;
     slider.insertAdjacentHTML('beforeend', content);
 }   
 
