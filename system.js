@@ -55,7 +55,7 @@ const dataset_footer = [
 ];
 
 for (let i = 0; i < dataset_footer.length; i++){
-    const {title, img, url} = dataset[i];
-    const content = `<div class="footere__content"><a href="${url}"><img src="${img}" alt="${title}"><h2>${title}</h2></a></div>`;
+    const {title, img, url} = dataset_footer[i];
+    const content = `<div class="footer__content"><a href="${url}"><img src="${img}" alt="${title}"><h2>${title}</h2></a></div>`;
     slider.insertAdjacentHTML('beforeend', content);
 }
