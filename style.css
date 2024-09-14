@@ -3,8 +3,23 @@
   font-family: 'zen maru';
   src: url(ZenMaruGothic-Regular.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'balbum';
+  src: url(Balbum-Rolypoly.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'kiraku';
+  src: url(46336.ttf) format('truetype');
+}
+html{
+  background-color: #C7E8FA;
+}
+.header__ttl{
+  font-weight: 100;
+  font-family: 'balbum';
+}
 .main__ttl{
-  font-family: 'zen maru';
+  font-family: 'kiraku';
 }
 .mutsumefes,.date__ttl{
   font-family: 'zen maru';

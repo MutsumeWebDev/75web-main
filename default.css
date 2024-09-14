@@ -39,12 +39,13 @@ header{
     z-index:900;
     background-color: white;
     height:60px; 
-    border-bottom: solid 1px;  
+    box-shadow: 0 0 10px rgba(51,75,105,0.3);
 }
 .header__float{
-    width:90vw;
+    width:90vw !important;
     margin:0 5vw;
     border-radius: 30px;
+    transform: translate3d(0, 20px, 0) !important;
     box-shadow: 0 0 10px rgba(51,75,105,0.3);
 }
 .header__img img{
@@ -57,7 +58,7 @@ header{
     font-size: 25px;
     color:var(--main-color);
     position:absolute;
-    top:18px;
+    top:9px;
     left:50%;
     transform:translateX(-50%);
 }
@@ -89,20 +90,22 @@ header{
 }
 .top__upper{
     display: relative;
-    height: 60vh;
-    margin-top: 60px;
+    height: 50vh;
+    margin-top: 80px;
     padding: 3vh;
 }
 .mutsumefes{
     margin-bottom: 10vh;
 }
 .main__ttl{
-    font-size: 10vh;
+    text-align: center;
+    font-size: 12vw;
     margin-bottom: 0.6em;
     letter-spacing: 0.1em;
+    color: var(--main-color)
 }
 .date__ttl{
-    align-items: right;
+    text-align: right;
 }
 .slider__content{
     width:300px;
@@ -144,10 +147,4 @@ header{
 .detail__list dd{
     text-align: center;
     margin-bottom: 1.5em;
-}
-@media screen and (max-width: 430px) {
-    .top__upper{
-        position: relative;
-        height: 66vh;
-    }
 }
