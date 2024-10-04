@@ -28,7 +28,7 @@ for (let i = 0; i < dataset.length; i++){
     const content = `<li class="c-archive-item">
                       <a href="/s/official/page/2nd_album?ima=0000" target="">
                         <div class="c-archive-item__thumb">
-                          <img alt="2nd Album「脈打つ感情」SPECIAL SITE" src="${img}">
+                          <img alt="${title}" src="${img}">
                         </div>
                         <div class="c-archive-item__name">${title}</div>
                       </a>
@@ -37,14 +37,19 @@ for (let i = 0; i < dataset.length; i++){
 }   
 
 //header
-const header = document.querySelector('#header');
-const scrollAmount = scrollY;
-if(scrollAmount > 150){
-    header.classList.add("scrolled");
+const headerAnimation = () =>{
+    const header = document.querySelector('#header');
+    const scrollAmount = scrollY;
+    const viewHeight = document.documentElement.clientHeight;
+
+    if(scrollAmount > viewHeight/2){
+        header.classList.add("header__float");
+    }
+    else{
+        header.classList.remove("header__float");
+    }
 }
-else{
-    header.classList.remove("scrolled");
-}
+window.addEventListener('scroll', headerAnimation);
 
 //menubar
 const menuOpen = document.querySelector('#menu_open');

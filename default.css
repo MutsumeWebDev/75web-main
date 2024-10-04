@@ -2,10 +2,6 @@
 html{
     scroll-behavior: smooth;
 }
-dt,dd{
-    margin:0;
-    padding:0;
-}
 :root{
     --main-color: #28ACD8;
 }
@@ -46,35 +42,39 @@ header{
     left:0;
     z-index:900;
     background-color: white;
-    height:60px; 
+    height:100px; 
+    border-radius: 0 0 50px 50px;
     box-shadow: 0 0 10px rgba(51,75,105,0.3);
+    -webkit-transition:all 300ms ease;
+    transition:all 300ms ease;
 }
 .header__float{
     width:90vw !important;
+    height: 80px !important;
+    border-radius: 40px !important;
     margin:0 5vw;
-    border-radius: 30px;
-    transform: translate3d(0, 20px, 0) !important;
+    transform: translate3d(0, 30px, 0) !important;
     box-shadow: 0 0 10px rgba(51,75,105,0.3);
 }
 .header__img img{
+    vertical-align: bottom;
     width: auto;
-    height: 50px;
+    height: 79px;
     position: absolute;
-    top: 6px;
-    left:25px;
+    left: 9vw;
 }
 .header__ttl{
-    font-size: 25px;
+    font-size: 27px;
     color:var(--main-color);
     position:absolute;
-    top:9px;
+    top: calc(40px - 12.5px);
     left:50%;
     transform:translateX(-50%);
 }
 #menu_open{
     position:absolute;
     top:10px;
-    right:25px;
+    right:9vw;
     width:45px;
     height:45px;
 }
@@ -100,7 +100,7 @@ header{
 .top__upper{
     display: relative;
     height: 50vh;
-    margin-top: 80px;
+    margin-top: 90px;
     padding: 3vh;
 }
 .mutsumefes{
@@ -108,9 +108,7 @@ header{
 }
 .main__ttl{
     text-align: center;
-    font-size: 12vw;
     margin-bottom: 0.6em;
-    letter-spacing: 0.1em;
     color: var(--main-color)
 }
 .date__ttl{
