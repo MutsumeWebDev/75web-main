@@ -15,11 +15,12 @@ html{
   background-color: #C7E8FA;
 }
 .header__ttl{
-  font-weight: 100;
   font-family: 'balbum';
 }
 .main__ttl{
-  font-family: 'kiraku';
+  font-size: 15vw;
+  font-family: 'balbum';
+  font-style: normal;
 }
 .mutsumefes,.date__ttl{
   font-family: 'zen maru';
