@@ -7,7 +7,7 @@ html{
 }
 .top{
     position: relative;
-    height: 75vh;
+    height: 63vh;
 }
 h1, h2, h3{
     margin:0;
@@ -38,47 +38,46 @@ header{
 #header{
     width:100vw;
     position:fixed;
-    top:0;
+    bottom: -80px;
     left:0;
     z-index:900;
     background-color: white;
-    height:100px; 
-    border-radius: 0 0 50px 50px;
-    box-shadow: 0 0 10px rgba(51,75,105,0.3);
+    height: 60px;
+    border-radius: 50px 50px 0 0;
+    box-shadow: 0 0 7px rgba(51,75,105,0.8);
     -webkit-transition:all 300ms ease;
     transition:all 300ms ease;
 }
+
 .header__float{
     width:90vw !important;
-    height: 80px !important;
+    height: 60px !important;
     border-radius: 40px !important;
     margin:0 5vw;
-    transform: translate3d(0, 30px, 0) !important;
-    box-shadow: 0 0 10px rgba(51,75,105,0.3);
-}
-.header__img img{
-    vertical-align: bottom;
-    width: auto;
-    height: 79px;
-    position: absolute;
-    left: 9vw;
+    transform: translate3d(0, -110px, 0);
+    box-shadow: 0 10px 10px rgba(51,75,105,0.3);
 }
 .header__ttl{
     font-size: 27px;
     color:var(--main-color);
     position:absolute;
-    top: calc(40px - 12.5px);
+    top: 12.5px;
     left:50%;
     transform:translateX(-50%);
 }
-#menu_open{
+.menu__open{
     position:absolute;
     top:10px;
-    right:9vw;
+    right:8vw;
     width:45px;
     height:45px;
 }
 
+@media screen and (max-width: 430px){
+    .menu__open{
+        display: none;
+    }
+}
 #menu_open span{
     content:'';
     display:block;
@@ -89,13 +88,21 @@ header{
     background:var(--main-color);
 }
 #menu_open span:nth-of-type(1){
-    top:19.5px;
+    top:12px;
 }
 #menu_open span:nth-of-type(2){
-    top:28.5px;
+    top:20px;
 }
 #menu_open span:nth-of-type(3){
-    top:37.5px;
+    bottom:14px;
+}
+.bubble1{
+    width: 2vw;
+    height: 2vw;
+    background: #FDF573;
+    top: 49vw;
+    right: 51%;
+    animation: pukapuka 3s linear infinite;
 }
 .top__upper{
     display: relative;
@@ -113,6 +120,26 @@ header{
 }
 .date__ttl{
     text-align: right;
+}
+#slider{
+    padding-top: 25vh;
+}
+.news{
+    padding: 6em 0;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.news h3{
+    margin: .5em 0 .25em;
+}
+.festival{
+    position: relative;
+    padding: 4em 0;
+    text-align: center;
+}
+.festival h2{
+    margin-bottom: 3.236em;
+    font-size: 1.4rem;
 }
 .talk__detail{
     display: relative;
