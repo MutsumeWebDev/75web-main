@@ -25,6 +25,49 @@ body{
   font-family: 'balbum';
   font-style: normal;
 }
+#slider{
+  background: -moz-linear-gradient(top, #FFC778 50%, #FFF 70%);
+  background: -webkit-linear-gradient(top, #FFC778 50%, #FFF 70%);
+  background: linear-gradient(to bottom, #FFC778 50%, #FFF 70%);
+  padding-top: 25vh;
+}
+#slider::before{
+  content: '.';
+  background: #FFC778;
+  display: block;
+  position: absolute;
+  top: -9.5vw;
+  left: 0;
+  right: 0;
+  height: 9.64286vw;
+  width: 100%;
+  -webkit-mask: url(top__wave__big.svg);
+  mask: url(top__wave__big.svg);
+  -webkit-mask-size: 100% 9.64286vw;
+  mask-size: 100% 9.64286vw;
+  -webkit-mask-position: center top;
+  mask-position: center top;
+}
+.news{
+  background-color: #fff;
+}
+.festival::before{
+  content: '.';
+  background: #C7E8FA;
+  display: block;
+  position: absolute;
+  top: -9.5vw;
+  left: 0;
+  right: 0;
+  height: 9.64286vw;
+  width: 100%;
+  -webkit-mask: url(top__wave__big.svg);
+  mask: url(top__wave__big.svg);
+  -webkit-mask-size: 100% 9.64286vw;
+  mask-size: 100% 9.64286vw;
+  -webkit-mask-position: center top;
+  mask-position: center top;
+}
 .mutsumefes,.date__ttl{
   font-family: 'zen maru';
 }

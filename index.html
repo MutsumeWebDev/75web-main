@@ -6,6 +6,7 @@
     <title>第75回むつめ祭ティザーサイト</title>
     <!--javascript-->
     <script type="text/javascript" src="system.js" defer></script>
+    <script type="text/javascript" src="support.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript" src="slider.js" defer></script>
@@ -31,16 +32,16 @@
     </noscript>
     <header class="header">
         <div id="header">
-            <div class="header__img">
+            <!-- <div class="header__img">
                 <a href="">
                     <img  src="icon.jpg" alt="">
                 </a>
-            </div>
+            </div> -->
             <a href="">
                 <!-- svg挿入予定 -->
                 <h2 class="header__ttl">Pop Tone</h2>
             </a>
-            <div id="menu_open">
+            <div id="menu_open" class="menu__open">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -51,11 +52,11 @@
         <section class="top">
             <div class="top__upper">
                 <h2 class="mutsumefes">第75回埼玉大学むつめ祭</h2>
-                <h1 class="main__ttl">Pop Tone</h1>
+                <h1 class="main__ttl">
+                    <img class="main__ttl__svg" href="top__ttl.svg" alt="">
+                </h1>
                 <div class="date__ttl">
-                    <h2>11.23 sat 10:00-19:00 </h2>
-                    <h2>24 sun 10:00-20:00</h2>
-                    <h2>25 mon 10:00-19:00</h2>
+                    <h2>11.23 sat - 25 mon </h2>
                 </div>
                 <div class="bubble1"></div>
                 <div class="bubble2"></div>
@@ -66,17 +67,27 @@
             </div>
         </section>
         <div id="slider"></div>
-        <section class="fes__outline">
-            <h2 class="outline__ttl">開催概要</h2>
-            <p class="ticket">
-                今年度より、無料の入場チケットは廃止となりました。
-            </p>
+        <section class="news">
+            <h3 class="">新着情報</h3>
+            <div id="news"></div>
         </section>
-        <section class="festival__event">
-            <h2 class="event__ttl">当日の企画</h2>
-            <p class="">comming soon</p>
+        <section class="about">
+
         </section>
-        <section>
+        <section class="festival">
+            <h2>当日のご案内</h2>
+            <div class="attention">
+                <h3>注意事項</h3>
+            </div>
+            <dl>
+                <dt>屋台</dt>
+                <dt>展示・体験</dt>
+                <dt>トークショー</dt>
+                <dt>ライブ</dt>
+                <dt></dt>
+            </dl>
+        </section>
+        <!-- <section>
             <h2 class="greetings__ttl">委員長あいさつ</h2>
             <p class="">
                 第75回むつめ祭常任委員会委員長の清水悠人と申します。
@@ -89,10 +100,10 @@
 
                 困難に負けず進んできたむつめ祭の歩み。皆様にはぜひ足を運んでいただき、私たちの熱く、しかしPopで楽しげな雰囲気を感じ取っていただければ幸いです。
             </p>
-        </section>
+        </section> -->
         <section class="sponsors">
             <h2 class="">ご協賛</h2>
-            <ul id="support"></ul>
+            
         </section>
     </main>
     <!--footer-->

@@ -42,7 +42,7 @@ const headerAnimation = () =>{
     const scrollAmount = scrollY;
     const viewHeight = document.documentElement.clientHeight;
 
-    if(scrollAmount > viewHeight/2){
+    if(scrollAmount > viewHeight/3){
         header.classList.add("header__float");
     }
     else{
