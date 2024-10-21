@@ -5,14 +5,6 @@ html{
 :root{
     --main-color: #28ACD8;
 }
-.top{
-    position: relative;
-    height: 63vh;
-}
-h1, h2, h3{
-    margin:0;
-    padding:0;
-}
 a{
     display:block;
     text-decoration: none;
@@ -24,11 +16,53 @@ div{
 }
 img {
     border: 0 none;
-    vertical-align: top;
     width: 100%;
     height: auto;
     margin: 0;
     padding: 0;
+}
+/* トップページ上部 */
+.top{
+    position: relative;
+    height: 80vh;
+}
+.top__upper{
+    position: relative;
+    max-width: 900px;
+    padding: 60px 3vw 0;
+    height: 100%;
+    margin: 0 auto;
+}
+.main__ttl{
+    position: relative;
+    top: 40%;
+    width: 80%;
+    margin: 0 auto 5vh;
+}
+@media screen and (max-width: 540px){
+    .main__ttl{
+        width: 94%;
+    }
+}
+.main__ttl img{
+    width: 100%;
+}
+.mutsumefes{
+    position: absolute;
+    margin-bottom: 0.6em;
+    right: 10%;
+    font-size: 1.15em;
+}
+@media screen and (max-width: 540px){
+    .mutsumefes{
+        right: 3%;
+    }
+}
+.date__ttl{
+    display: flex;
+    margin-right: 10%;
+    background-color: #28ACD8;
+    border-radius: 30px;
 }
 header{
     position:relative;
@@ -96,27 +130,109 @@ header{
 #menu_open span:nth-of-type(3){
     bottom:14px;
 }
-.bubble1{
-    width: 2vw;
-    height: 2vw;
+.bubble{
+    position: absolute;
+}
+.round1{
+    top: 66vh;
+    left: 15%;
+    width: 3vw;
+    height: 3vw;
     background: #FDF573;
-    top: 49vw;
-    right: 51%;
-    animation: pukapuka 3s linear infinite;
+    border-radius: 50%;
+    animation: pukapuka1 5s linear infinite;
 }
-.top__upper{
-    display: relative;
-    height: 50vh;
-    margin-top: 90px;
-    padding: 3vh;
+@media screen and (max-width: 540px){
+    .round1{
+        width: 7vw;
+        height: 7vw;
+    }
 }
-.mutsumefes{
-    margin-bottom: 10vh;
+.round2{
+    top: 33vh;
+    right: 20%;
+    width: 3vw;
+    height: 3vw;
+    background: #FDF573;
+    border-radius: 50%;
+    animation: pukapuka2 5s linear infinite;
 }
-.main__ttl{
-    text-align: center;
-    margin-bottom: 0.6em;
-    color: var(--main-color)
+@media screen and (max-width: 540px){
+    .round2{
+        width: 7vw;
+        height: 7vw;
+    }
+}
+.round3{
+    top: 20vh;
+    left: 25%;
+    width: 3vw;
+    height: 3vw;
+    background: #FDF573;
+    border-radius: 50%;
+    animation: pukapuka3 5s linear infinite;
+}
+@media screen and (max-width: 540px){
+    .round3{
+        width: 7vw;
+        height: 7vw;
+    }
+}
+.round1{
+    top: 66vh;
+    left: 15%;
+    width: 3vw;
+    height: 3vw;
+    background: #FDF573;
+    border-radius: 50%;
+}
+@media screen and (max-width: 540px){
+    .round1{
+        width: 7vw;
+        height: 7vw;
+    }
+}
+.round1{
+    top: 66vh;
+    left: 15%;
+    width: 3vw;
+    height: 3vw;
+    background: #FDF573;
+    border-radius: 50%;
+}
+@media screen and (max-width: 540px){
+    .round1{
+        width: 7vw;
+        height: 7vw;
+    }
+}
+.round1{
+    top: 66vh;
+    left: 15%;
+    width: 3vw;
+    height: 3vw;
+    background: #FDF573;
+    border-radius: 50%;
+}
+@media screen and (max-width: 540px){
+    .round1{
+        width: 7vw;
+        height: 7vw;
+    }
+}
+.round1{
+    top: 66vh;
+    left: 15%;
+    width: 3vw;
+    height: 3vw;
+    background: #FDF573;
+    border-radius: 50%;
+}
+@media screen and (max-width: 540px){
+    .round1{
+        width: 7vw;
+        height: 7vw;
+    }
 }
 .date__ttl{
     text-align: right;
