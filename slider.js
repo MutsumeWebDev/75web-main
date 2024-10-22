@@ -4,7 +4,7 @@ $(function () {
     autoplay: true,
     adaptiveHeight: true,
     centerMode: true,
-    centerPadding: "15%",
+    centerPadding: "10%",
     dots: false,
     slidesToShow: 3,
     responsive: [
