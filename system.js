@@ -26,7 +26,7 @@ const dataset = [
 for (let i = 0; i < dataset.length; i++){
     const {title, img, url} = dataset[i];
     const content = `<li class="c-archive-item">
-                      <a href="/s/official/page/2nd_album?ima=0000" target="">
+                      <a href="${url}" target="">
                         <div class="c-archive-item__thumb">
                           <img alt="${title}" src="${img}">
                         </div>

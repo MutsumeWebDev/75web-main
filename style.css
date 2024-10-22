@@ -11,9 +11,6 @@
   font-family: 'kiraku';
   src: url(46336.ttf) format('truetype');
 }
-html{
-  background-color: #C7E8FA;
-}
 body{
   font-family: 'zen maru';
 }
@@ -24,7 +21,6 @@ body{
   background: -moz-linear-gradient(top, #FFC778 50%, #FFF 70%);
   background: -webkit-linear-gradient(top, #FFC778 50%, #FFF 70%);
   background: linear-gradient(to bottom, #FFC778 50%, #FFF 70%);
-  padding-top: 25vh;
 }
 #slider::before, .festival::before{
   content: '.';
@@ -42,9 +38,11 @@ body{
   mask-size: 100% 9.64286vw;
   -webkit-mask-position: center top;
   mask-position: center top;
+  z-index: -2;
 }
 .news{
   background-color: #fff;
+  z-index: -3;
 }
 .mutsumefes,.date__ttl{
   font-family: 'zen maru';

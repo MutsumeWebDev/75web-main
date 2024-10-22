@@ -21,59 +21,51 @@ img {
     margin: 0;
     padding: 0;
 }
-/* トップページ上部 */
-.top{
-    position: relative;
-    height: 80vh;
-}
-.top__upper{
-    position: relative;
-    max-width: 900px;
-    padding: 60px 3vw 0;
-    height: 100%;
-    margin: 0 auto;
-}
-.main__ttl{
-    position: relative;
-    top: 40%;
-    width: 80%;
-    margin: 0 auto 5vh;
-}
-@media screen and (max-width: 540px){
-    .main__ttl{
-        width: 94%;
-    }
-}
-.main__ttl img{
-    width: 100%;
-}
-.mutsumefes{
-    position: absolute;
-    margin-bottom: 0.6em;
-    right: 10%;
-    font-size: 1.15em;
-}
-@media screen and (max-width: 540px){
-    .mutsumefes{
-        right: 3%;
-    }
-}
-.date__ttl{
-    display: flex;
-    margin-right: 10%;
-    background-color: #28ACD8;
-    border-radius: 30px;
-}
+/*ヘッダー*/
 header{
     position:relative;
-    margin:0;
-    padding:0;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+}
+.top__header{
+    position: fixed;
+    width: 55%;
+    max-width: 200px;
+    height: 65px;
+    padding: .3em;
+    background-color: #fff;
+    box-shadow: 0 0 7px rgba(51,75,105,0.8);
+    border-radius: 0 0 10px 0;
+    z-index: 100;
+}
+@media screen and (min-width: 767px){
+    .top__header{
+        top: 20px;
+        left: 20px;
+        border-radius: 10px;
+    }
+}
+.top__ttl{
+    display: flex;
+    align-items: center;
+}
+.top__ttl img{
+    width: 50px;
+}
+.mutsume{
+    font-size: 2.15em;
+    color: var(--main-color)
+}
+.top__nav{
+    display: flex;
+    flex-wrap: wrap;
 }
 #header{
-    width:100vw;
     position:fixed;
     bottom: -80px;
-    left:0;
+    right: 0;
     z-index:900;
     background-color: white;
     height: 60px;
@@ -84,7 +76,7 @@ header{
 }
 
 .header__float{
-    width:90vw !important;
+    width: 60px !important;
     height: 60px !important;
     border-radius: 40px !important;
     margin:0 5vw;
@@ -101,13 +93,13 @@ header{
 }
 .menu__open{
     position:absolute;
-    top:10px;
-    right:8vw;
+    top: 8.8px;
+    left: 17px;
     width:45px;
     height:45px;
 }
 
-@media screen and (max-width: 430px){
+@media screen and (min-width: 431px){
     .menu__open{
         display: none;
     }
@@ -130,8 +122,88 @@ header{
 #menu_open span:nth-of-type(3){
     bottom:14px;
 }
+
+/* トップページ上部 */
+.top{
+    position: relative;
+    padding-top: 60px;
+    height: 38em;
+}
+@media screen and (max-width: 431px){
+    .top{
+        height: 65vh;
+    }
+}
+.top__upper{
+    position: relative;
+    max-width: 900px;
+    padding: 60px 3vw 0;
+    height: auto;
+    margin: 0 auto;
+}
+/* @media screen and (max-width: 431px){
+    .top__upper{
+        padding-top: 60px;
+    }
+} */
+.mutsume__ttl{
+    margin-bottom: 1.6em;
+    left: 10%;
+    font-size: 1.15em;
+}
+@media screen and (max-width: 431px){
+    .mutsumefes{
+        left: 3%;
+    }
+}
+.main__ttl{
+    position: relative;
+    top: 50%;
+    width: 80%;
+    max-width: 768px;
+    margin: 0 auto 9vh;
+}
+@media screen and (max-width: 431px){
+    .main__ttl{
+        width: 94%;
+    }
+}
+.main__ttl img{
+    width: 100%;
+}
+.date__ttl{
+    display: flex;
+    width: calc(14em + 4em);
+    margin-left: auto;
+    margin-right: 10%;
+    padding: 1.6em 2em .6em;
+    background-color: var(--main-color);
+    border-radius: 30px;
+    color: white
+}
+.fes__date::before{
+    content: '2024';
+    position: absolute;
+    top: -1em;
+    left: 0;
+}
+.fes__date{
+    position: relative;
+}
+.year{
+    display: block;
+    margin-right: 0;
+}
+.date, .hifn{
+    font-size: 2.2em;
+}
+.hifn{
+    margin: 0 .6em;
+    align-self: center;
+}
 .bubble{
     position: absolute;
+    z-index: -1;
 }
 .round1{
     top: 66vh;
@@ -234,19 +306,24 @@ header{
         height: 7vw;
     }
 }
-.date__ttl{
-    text-align: right;
-}
-#slider{
-    padding-top: 25vh;
-}
+
 .news{
-    padding: 6em 0;
+    padding: 3em 0;
     font-size: 1.4rem;
     text-align: center;
 }
+@media screen and (max-width: 540px){
+    .news{
+        padding: 2em 0;
+    }
+}
 .news h3{
     margin: .5em 0 .25em;
+}
+.sponsors h2{
+    margin: .5em 0 2em;
+    font-size: 1.4rem;
+    text-align: center;
 }
 .festival{
     position: relative;
@@ -288,4 +365,15 @@ header{
 .detail__list dd{
     text-align: center;
     margin-bottom: 1.5em;
+}
+
+#support{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.support__ad{
+    display: block;
+    margin: 24px;
+    width: 320px;
 }
