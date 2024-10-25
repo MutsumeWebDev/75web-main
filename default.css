@@ -636,14 +636,14 @@ header{
     .ticket .stream .box {
         padding: 1.9em;
         margin: 2em 0 3.5em;
-        border: 2px dashed #00c9e6;
+        border: 2px dashed #28ACD8;
     }
     .ticket .stream .box h3 {
         margin-top: -3em;
     }
 
     .ticket .v2 {
-        border: 2px solid #00c9e6;
+        border: 2px solid #28ACD8;
     }
     .ticket .v2 h3.midashi {
         border-radius: 13px 13px 0 0;
@@ -734,7 +734,7 @@ header{
 .fotter__ttl img{
     display: block;
     margin: 0 auto 10px;
-    width: 15vw;
+    width: 60px;
 }
 .SNS_icon{
     display: flex;
