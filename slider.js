@@ -9,7 +9,13 @@ $(function () {
     slidesToShow: 3,
     responsive: [
       {
-        breakpoint: 900, // 799px以下のサイズに適用
+        breakpoint: 1024, // 480〜767px以下のサイズに適用
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 540, // 〜430px以下のサイズに適用
         settings: {
           slidesToShow: 1,
         },
