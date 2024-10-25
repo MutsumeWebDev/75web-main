@@ -14,17 +14,14 @@
 body{
   font-family: 'zen maru';
 }
-.header__ttl{
-  font-family: 'balbum';
-}
 #slider{
-  background: -moz-linear-gradient(top, #FFC778 50%, #FFF 70%);
-  background: -webkit-linear-gradient(top, #FFC778 50%, #FFF 70%);
-  background: linear-gradient(to bottom, #FFC778 50%, #FFF 70%);
+  background: -moz-linear-gradient(top, #28acda 40%, #FFF 80%);
+  background: -webkit-linear-gradient(top, #28acda 40%, #FFF 80%);
+  background: linear-gradient(to bottom, #28acda 40%, #FFF 80%);
 }
-#slider::before, .festival::before{
+#slider::before{
   content: '.';
-  background: #FFC778;
+  background: #28acda;
   display: block;
   position: absolute;
   top: -9.5vw;
@@ -38,7 +35,23 @@ body{
   mask-size: 100% 9.64286vw;
   -webkit-mask-position: center top;
   mask-position: center top;
-  z-index: -2;
+}
+.festival::before{
+  content: '.';
+  background: #c7e9fa;
+  display: block;
+  position: absolute;
+  top: -9.5vw;
+  left: 0;
+  right: 0;
+  height: 9.64286vw;
+  width: 100%;
+  -webkit-mask: url(img_bg-snow.png);
+  mask: url(img_bg-snow.png);
+  -webkit-mask-size: 100% 9.64286vw;
+  mask-size: 100% 9.64286vw;
+  -webkit-mask-position: center top;
+  mask-position: center top;
 }
 .news{
   background-color: #fff;

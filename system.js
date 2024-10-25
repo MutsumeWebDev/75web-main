@@ -2,24 +2,19 @@ const slider = document.querySelector('#slider');
 
 const dataset = [
     {
-        title: 'テーマ',
-        img: 'img0-1.jpg',
-        url: '',
-    },
-    {
-        title: '乃紫さんライブ',
+        title: 'むつめ祭ライブ【乃紫さん】',
         img: 'img0-1.jpg',
         url: 'slider_noa.html',
     },
     {
-        title: '梶裕貴さんトークショー',
+        title: 'むつめ祭トークショー【梶裕貴さん】',
         img: 'img0-2.jpg',
         url: 'slider_talkshow.html',
     },
     {
-        title: 'ホームカミングデー',
-        img: 'img0-1.jpg',
-        url: '',
+        title: '埼玉大学ホームカミングデー',
+        img: 'HCD.png',
+        url: 'HCD.html',
     },
 ];
 
@@ -72,3 +67,4 @@ const dataset_footer = [
 //     const content = `<div class="footere__content"><a href="${url}"><img src="${img}" alt="${title}"><h2>${title}</h2></a></div>`;
 //     slider.insertAdjacentHTML('beforeend', content);
 // }
+
