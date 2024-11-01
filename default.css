@@ -489,13 +489,13 @@ header{
 }
 
 /* 協賛 */
-#support{
+#support, #motalWindow{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     margin-bottom: 2em;
 }
-.support__ad{
+.support__ad, .motalWindow{
     display: block;
     margin: 24px;
     width: 320px;
@@ -564,7 +564,7 @@ header{
     margin: 0 auto .5em;
     border-radius: 5px;
     line-height: 2;
-    margin-bottom: 1em
+    margin-bottom: 1em;
 }
 .ticket_in .box p {
     margin-bottom:1em;
@@ -747,6 +747,7 @@ header{
     align-self: center;
 }
 
+/* ローディング画面 */
 #loading {
     background-color: #c7e9fa;
     position: fixed;
@@ -767,4 +768,58 @@ header{
     font-weight: bold;
     font-size: 2rem;
     font-family: 'Dosis';
+}
+
+/* 団体紹介ページ */
+.motalWindow{
+    border: solid 1px #28ACD8;
+    border-radius: 1em;
+    box-shadow: 10px 10px 10px rgba(51,75,105,0.3);
+}
+.motalWindow h3{
+    text-align: left;
+    padding-left: 5px;
+}
+.motalWindow p{
+    margin: 5px 0 0 52px;
+    font-size: .75em;
+    text-align: left;
+}
+.group__ttl{
+    display: flex;
+    padding: 16px 0 0 25px;
+}
+.group__icon{
+    position: relative;
+    width: 18.4px;
+    border: solid 1px #c7e9fa;
+    border-radius: 9.2px;
+}
+.group__icon::before{
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -4.6px;
+    width: 11.5px;
+    height: 11.5px;
+    border-radius: 5.75px;
+    border: solid 1px #FDF573;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    height: 57px;
+    justify-content: center;
+    padding-left: 10px;
+    width: 210px;
+}
+.group__info{
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 48px;
+}
+.group__info img{
+    height: 60px;
+    width: 60px;
 }

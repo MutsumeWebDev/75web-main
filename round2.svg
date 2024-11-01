@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 97.993 82.021">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="楕円形_163" data-name="楕円形 163" cx="41.01" cy="41.01" r="41.01" transform="translate(0 0)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="131.233" height="87.201" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <circle id="楕円形_164" data-name="楕円形 164" cx="15.972" cy="15.972" r="15.972" transform="translate(0 0)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect width="51.803" height="34.535" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="グループ_364" data-name="グループ 364" transform="translate(-1246 -583.113)">
+    <g id="マスクグループ_88" data-name="マスクグループ 88" transform="translate(1246 583.113)" clip-path="url(#clip-path)">
+      <g id="リピートグリッド_46" data-name="リピートグリッド 46" transform="translate(-24.175 -2)" clip-path="url(#clip-path-2)">
+        <g transform="translate(-7361 -457)">
+          <rect id="長方形_486" data-name="長方形 486" width="238" height="5" transform="translate(7361 457)" fill="#004da0"/>
+        </g>
+        <g transform="translate(-7361 -448)">
+          <rect id="長方形_487" data-name="長方形 487" width="238" height="5" transform="translate(7361 457)" fill="#004da0"/>
+        </g>
+        <g transform="translate(-7361 -439)">
+          <rect id="長方形_488" data-name="長方形 488" width="238" height="5" transform="translate(7361 457)" fill="#004da0"/>
+        </g>
+        <g transform="translate(-7361 -430)">
+          <rect id="長方形_489" data-name="長方形 489" width="238" height="5" transform="translate(7361 457)" fill="#004da0"/>
+        </g>
+        <g transform="translate(-7361 -421)">
+          <rect id="長方形_490" data-name="長方形 490" width="238" height="5" transform="translate(7361 457)" fill="#004da0"/>
+        </g>
+        <g transform="translate(-7361 -412)">
+          <rect id="長方形_491" data-name="長方形 491" width="238" height="5" transform="translate(7361 457)" fill="#004da0"/>
+        </g>
+        <g transform="translate(-7361 -403)">
+          <rect id="長方形_492" data-name="長方形 492" width="238" height="5" transform="translate(7361 457)" fill="#004da0"/>
+        </g>
+        <g transform="translate(-7361 -394)">
+          <rect id="長方形_493" data-name="長方形 493" width="238" height="5" transform="translate(7361 457)" fill="#004da0"/>
+        </g>
+        <g transform="translate(-7361 -385)">
+          <rect id="長方形_493-2" data-name="長方形 493" width="238" height="5" transform="translate(7361 457)" fill="#004da0"/>
+        </g>
+        <g transform="translate(-7361 -376)">
+          <rect id="長方形_493-3" data-name="長方形 493" width="238" height="5" transform="translate(7361 457)" fill="#004da0"/>
+        </g>
+      </g>
+    </g>
+    <g id="マスクグループ_89" data-name="マスクグループ 89" transform="translate(1312.048 583.113)" clip-path="url(#clip-path-3)">
+      <g id="リピートグリッド_47" data-name="リピートグリッド 47" transform="translate(-9.497 0)" clip-path="url(#clip-path-4)">
+        <g transform="translate(-7361 -457)">
+          <rect id="長方形_498" data-name="長方形 498" width="238" height="5" transform="translate(7361 457)" fill="#fdf573"/>
+        </g>
+        <g transform="translate(-7361 -448)">
+          <rect id="長方形_499" data-name="長方形 499" width="238" height="5" transform="translate(7361 457)" fill="#fdf573"/>
+        </g>
+        <g transform="translate(-7361 -439)">
+          <rect id="長方形_500" data-name="長方形 500" width="238" height="5" transform="translate(7361 457)" fill="#fdf573"/>
+        </g>
+        <g transform="translate(-7361 -430)">
+          <rect id="長方形_500-2" data-name="長方形 500" width="238" height="5" transform="translate(7361 457)" fill="#fdf573"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -164,6 +164,6 @@ const dataset_support = [
 ];
 for (let i = 0; i < dataset_support.length; i++){
     const {title, img, url} = dataset_support[i];
-    const content = `<a class ="support__ad" href="${url}"><img class="ad__img" src="img/ad_data/${title}/${img}" alt="${title}"></a>`;
-    support.insertAdjacentHTML('beforeend', content);
-} 
+    const content_support = `<a class ="support__ad" href="${url}"><img class="ad__img" src="img/ad_data/${title}/${img}" alt="${title}"></a>`;
+    support.insertAdjacentHTML('beforeend', content_support);
+}

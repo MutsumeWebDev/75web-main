@@ -6,9 +6,6 @@
     <title>第75回むつめ祭公式ウェブサイト</title>
     <meta name="description" content="第75回むつめ祭の公式ウェブサイトです。「Pop Tone」をテーマに、キャンパス中に広がる緑豊かな景色の中で、学生が一丸となって企画したさまざまな展示やパフォーマンスがむつめ祭を華やかに彩ります。">
     <link rel="icon" href="icon.jpg" sizes="16x16" type="image/png">
-    <link rel="icon" href="icon.jpg" sizes="32x32" type="image/png">
-    <link rel="icon" href="icon.jpg" sizes="48x48" type="image/png">
-    <link rel="icon" href="icon.jpg" sizes="62x62" type="image/png">
     <!--javascript-->
     <script type="text/javascript" src="system.js" defer></script>
     <script type="text/javascript" src="support.js" defer></script>
@@ -16,6 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript" src="slider.js" defer></script>
     <script type="text/javascript" src="loading.js" defer></script>
+    <script type="text/javascript" src="script.js" defer></script>
 
     <!--layout-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,11 +24,24 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="slider.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./menu.css">
 </head>
 <body>
     <div id="loading">
         <p>Loading...</p>
         <div id="loading-screen"></div>
+    </div>
+    <div class="menu">
+        <div class="overlay"></div>
+        <div class="fab"></div>
+        <ul>
+          <li><span>Check-Ins</span><span class="fa fa-#{icon}"></span></li>
+          <li><span>Videos</span><span class="fa fa-#{icon}"></span></li>
+          <li><span>Music</span><span class="fa fa-#{icon}"></span></li>
+          <li><span>Photos</span><span class="fa fa-#{icon}"></span></li>
+          <!-- <li><span>Messages</span><span class="fa fa-#{icon}"></span></li> -->
+        </ul>
+      </div>
     </div>
     <!--header-->
     <noscript>
@@ -57,13 +68,6 @@
             <a href="">むつめ祭とは</a>
             <a href="">ご案内</a>
             <a href=""></a>
-        </div> -->
-        <!-- <div id="header">
-            <div id="menu_open" class="menu__open">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
         </div> -->
     </header>
     <main>
@@ -140,10 +144,10 @@
                 <dt></dt>
             </dl>
         </section> -->
-        <!-- <section class="sponsors">
+        <section class="sponsors">
             <h2>ご協賛</h2>
             <div id="support"></div>
-        </section> -->
+        </section>
     </main>
     <!--footer-->
     <footer>
