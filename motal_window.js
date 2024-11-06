@@ -5,7 +5,7 @@ const dataset_intro = [
     number: "540",
     group: "推理小説研究会",
     class: "屋内",
-    "area_num": null,
+    area_num: null,
     room: "教育学部A棟",
     room_num: 111,
     show_place: null,
@@ -13,15 +13,19 @@ const dataset_intro = [
     detail_class: "物販, 展示",
     abst: "会員オリジナルの劇の上映、会誌の販売",
     explanation: "会誌の販売のほか、観客参加型の犯人当て推理劇を上映予定です。こちらは入場無料となっております。",
-    logo: "https://drive.google.com/open?id=1sR2zZrsmu1xDIG5C2HtqzVQN9QkDkEAo",
-    SNS: "https://x.com/McsPostbox"
+    logo: "suirikennkyuukai",
+    X: "https://x.com/McsPostbox",
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },  
   {
     number: "529",
     group: "SaidaiPokemonLaboratory",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "教育学部A棟",
     room_num: 112,
     show_place: null,
@@ -29,15 +33,19 @@ const dataset_intro = [
     detail_class: "展示, 体験",
     abst: "Switchによるポケモン対戦・ポケモンカード体験・塗り絵・クイズ",
     explanation: "世代を超えて遊べるポケットモンスターを一緒に楽しもう！",
-    logo: "https://drive.google.com/open?id=1ByhyGfjBtbj5NpcgWWXMoG4rG3aU6cSz",
-    SNS: "https://x.com/SaidaiPokemon2?t=TCQwoKLR26asFsWMP1g3Xg&s=09"
+    logo: "pokemon",
+    X: "https://x.com/SaidaiPokemon2?t=TCQwoKLR26asFsWMP1g3Xg&s=09",
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "537",
     group: "書道部",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "教育学部A棟",
     room_num: 113,
     show_place: null,
@@ -45,15 +53,19 @@ const dataset_intro = [
     detail_class: "展示, 体験",
     abst: "書道体験、書道の作品展示。",
     explanation: "書道の作品展示と書道体験を行っています！お子様から大人の方まで、誰でも気軽にお越しください！",
-    logo: "https://drive.google.com/open?id=1Fwuujv_5r5lt-V33CMe5AAQa_5ydAgff",
-    SNS: "https://www.instagram.com/saidaishodobu?igsh=NGd0cXZtZ2t1ZW1x&utm_source=qr"
+    logo: "shodo",
+    Instagram: "https://www.instagram.com/saidaishodobu?igsh=NGd0cXZtZ2t1ZW1x&utm_source=qr",
+    X: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "556",
     group: "埼玉大学美術部",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "教育学部A棟",
     room_num: 114,
     show_place: null,
@@ -61,15 +73,19 @@ const dataset_intro = [
     detail_class: "物販, 展示, 体験",
     abst: "作品展示、ワークショップ",
     explanation: "作品を見て楽しむだけでなく、作って楽しめる企画もご用意しています！",
-    logo: "https://drive.google.com/open?id=1JDVG8vwHn83TtolSh3BVeKEzFMA5J4xS",
-    SNS: null
+    logo: "bijyutubu",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
-    number: "026",
+    number: "26",
     group: "幻想芽凛郷",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "教育学部A棟",
     room_num: 201,
     show_place: null,
@@ -77,15 +93,19 @@ const dataset_intro = [
     detail_class: "展示, 体験",
     abst: "ゲーム体験会、展示、ボードゲーム",
     explanation: "東方projectの原作ゲーム試遊や書籍・CDの展示、ボードゲーム体験会などを行なっています！",
-    logo: "https://drive.google.com/open?id=1O77t9mxTKr3CpJ-Qtf6FqVy4CWRuQThu",
-    SNS: "https://x.com/SaidaiTouhou3"
+    logo: "gennsomerinkyo",
+    X: "https://x.com/SaidaiTouhou3",
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "551",
     group: "埼玉大学BBS会",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "教育学部A棟",
     room_num: 203,
     show_place: null,
@@ -93,15 +113,19 @@ const dataset_intro = [
     detail_class: "体験",
     abst: "ミニゲーム",
     explanation: "秋のBBS祭り開催中！屋台のミニゲームで、得点をゲットしよう！最後に景品があるかも…",
-    logo: "https://drive.google.com/open?id=1d8hDolZySDOvCgDlwAtj2GS9TCbQz9dO",
-    SNS: "https://www.instagram.com/saidai_bbs?igsh=MWN1OG1zOHdha3BqbQ=="
+    logo: "BBS",
+    Instagram: "https://www.instagram.com/saidai_bbs?igsh=MWN1OG1zOHdha3BqbQ==",
+    X: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
-    number: "001",
+    number: "1",
     group: "Spring Up",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "教育学部A棟",
     room_num: 210,
     show_place: null,
@@ -109,15 +133,19 @@ const dataset_intro = [
     detail_class: "展示, 体験",
     abst: "埼玉大学の生理用品設置に関する展示、参加型アート、レインボーアクセサリー作り",
     explanation: "埼大トイレ生理用品設置の展示や多様な性に関する参加型展示。レインボーアクセサリー作りもできます！",
-    logo: "https://drive.google.com/open?id=1QEbaajOZgaMTk89fXgu-mdcR3goMzlLh",
-    SNS: "https://www.instagram.com/springup_saitama/"
+    logo: "Springup",
+    Instagram: "https://www.instagram.com/springup_saitama/",
+    X: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "579",
     group: "埼大ロボット研究会",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "教育学部A棟",
     room_num: 211,
     show_place: null,
@@ -125,15 +153,19 @@ const dataset_intro = [
     detail_class: "展示, 体験",
     abst: "ロボットの操縦体験，制作物の展示",
     explanation: "部員たちが製作したロボット達をぜひご覧ください！レスキューロボットの操縦体験もできます！",
-    logo: "https://drive.google.com/open?id=1Om4rGI8LZxm13v0Vpz3DEPipYLJehtkP",
-    SNS: "https://sites.google.com/site/saidairobotlab/"
+    logo: "robotkennkyuukai",
+    HP: "https://sites.google.com/site/saidairobotlab/",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    link: null
   },
   {
     number: "534",
     group: "写真部",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "教育学部A棟",
     room_num: 324,
     show_place: null,
@@ -141,15 +173,19 @@ const dataset_intro = [
     detail_class: "展示",
     abst: "写真の展示、子供向けパズル",
     explanation: "大学公認の写真系サークルです！部員の作品展示を行っています！",
-    logo: "https://drive.google.com/open?id=15CA2M9Y919kX2fCE-jij3KOEN9VfKLEg",
-    SNS: "https://www.saidaiphoto.com/"
+    logo: "syashinbu",
+    HP: "https://www.saidaiphoto.com/",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    link: null
   },
   {
     number: "505",
     group: "埼玉大学イルミネーションプロジェクト実行委員会",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "教育学部A棟",
     room_num: 427,
     show_place: null,
@@ -157,15 +193,19 @@ const dataset_intro = [
     detail_class: "体験",
     abst: "子供向けの工作教室",
     explanation: "子供から大人まで楽しめる工作教室です！",
-    logo: "https://drive.google.com/open?id=1ljImI_zhumqO2xAS4gZAGSvAaeBBS2Ul",
-    SNS: null
+    logo: "illumination",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "599",
     group: "埼玉大学クイズ研究会",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "教養学部棟",
     room_num: 21,
     show_place: null,
@@ -173,15 +213,19 @@ const dataset_intro = [
     detail_class: "体験",
     abst: "早押しクイズの体験、会誌の販売",
     explanation: "早押しクイズの体験会を行っています！ぜひ遊びに来てください！",
-    logo: "https://drive.google.com/open?id=1oV5DwxsVC7fZzRuZL4SPeFuLfE6RoGYT",
-    SNS: null
+    logo: "quiz",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "567",
     group: "埼玉大学まんが団",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "教養学部棟",
     room_num: 22,
     show_place: null,
@@ -189,15 +233,19 @@ const dataset_intro = [
     detail_class: "物販",
     abst: "ｻｰｸﾙ誌-ﾎﾟｽﾄｶｰﾄﾞ販売, お絵描き・読書ｽﾍﾟｰｽ",
     explanation: "コミックマーケットにて販売したサークル誌や、お絵描きスペースの提供をしています！！",
-    logo: "https://drive.google.com/open?id=1u1O1BslVY3LsoCdfrPSgpaZfoDpS33G8",
-    SNS: "https://x.com/manga_dan"
+    logo: "manga",
+    X: "https://x.com/manga_dan",
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "576",
     group: "Light Fiction Club",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "教養学部棟",
     room_num: 24,
     show_place: null,
@@ -205,15 +253,19 @@ const dataset_intro = [
     detail_class: "物販, 展示, 体験",
     abst: "創作物(小説・イラスト)の冊子等販売・展示",
     explanation: "小説・イラスト・漫画、その他たくさんのグッズ販売中です！好きな作品を語り合おう！",
-    logo: "https://drive.google.com/open?id=1XbBbDS3Cyxj8K7uLOkIINd8pxo0w4K8J",
-    SNS: "https://x.com/lfc_information?t=K6FLBl9C-kfX2IY0WVdvmA&s=09"
+    logo: "lightfiction",
+    X: "https://x.com/lfc_information?t=K6FLBl9C-kfX2IY0WVdvmA&s=09",
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
-    number: "005",
-    group: "埼玉大学謎解きサークル　site:Arcana",
+    number: "5",
+    group: "埼玉大学謎解きサークル site:Arcana",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "教養学部棟",
     room_num: 31,
     show_place: null,
@@ -221,15 +273,19 @@ const dataset_intro = [
     detail_class: "体験",
     abst: "謎解きゲームの提供",
     explanation: "謎を解いて脱出を目指す体験型謎解きゲームを今年も開催！キミの手で、怪人から世界を救ったりしよう！",
-    logo: "https://drive.google.com/open?id=1ynaH79Wi8dXQ2niZdjkCb2m7BCPt5PQZ",
-    SNS: "https://sitearcana.com/mutsume75"
+    logo: "nazotoki",
+    HP: "https://sitearcana.com/mutsume75",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    link: null
   },
   {
     number: "583",
     group: "埼玉大学競技かるたサークルいろは",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "教養学部棟",
     room_num: 34,
     show_place: null,
@@ -237,15 +293,19 @@ const dataset_intro = [
     detail_class: "パフォーマンス, 物販, 体験",
     abst: "かるたの試合の見学・体験、ミニゲーム、ストラップ販売",
     explanation: "日本の古き良き伝統かるたをぜひ体験しに来てください。かわいいストラップも売ってます！",
-    logo: "https://drive.google.com/open?id=1UQsx8ERRbI63TQrr_5PjU_g5wIs6AgAT",
-    SNS: null
+    logo: "karuta",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
-    number: "019",
+    number: "19",
     group: "埼玉大学DTM(作曲)研究会",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "教養学部棟",
     room_num: 36,
     show_place: null,
@@ -253,15 +313,19 @@ const dataset_intro = [
     detail_class: "物販, 体験",
     abst: "自主制作CDの販売、PCを使った作曲(有名曲のカバー)の体験会",
     explanation: "当サークルで作成したCDを販売します。常時DTM(作曲)体験会も行っています！",
-    logo: "https://drive.google.com/open?id=1cwlOEwdtHIbklNqomR7t8av0ecqzZg0u",
-    SNS: "https://x.com/DTM14038629"
+    logo: "DTM",
+    X: "https://x.com/DTM14038629",
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "575",
     group: "埼玉大学有機農業研究会",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "教養学部棟",
     room_num: 37,
     show_place: null,
@@ -269,15 +333,19 @@ const dataset_intro = [
     detail_class: "物販, 展示",
     abst: "野菜・藍染・ヒンメリの販売、ワークショップ",
     explanation: "学内の畑で採れた有機野菜と小物の販売、ワークショップを行っています！",
-    logo: "https://drive.google.com/open?id=1BJryfwGbi5Ngej5QJVgeb_0lG8SqQ_Z",
-    SNS: "http://saitama.eco.coocan.jp/index.html, https://x.com/saidai_nougyou, https://www.instagram.com/saidai_nougyou/"
+    logo: "yuukinogyo",
+    HP: "http://saitama.eco.coocan.jp/index.html",
+    X: "https://x.com/saidai_nougyou",
+    Instagram: "https://www.instagram.com/saidai_nougyou/",
+    youtube: null,
+    link: null
   },
   {
-    number: "025",
+    number: "25",
     group: "Curious about ... ・ 埼⽟⼤学珈琲同好会",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "全学講義棟1号館",
     room_num: 202,
     show_place: null,
@@ -285,15 +353,19 @@ const dataset_intro = [
     detail_class: "飲食, 物販, 体験",
     abst: "淹れたて珈琲と活気に満ちた議論の提供",
     explanation: "香るこだわり珈琲、知的交流、自作冊子販売、講演など。\n珈琲の飲み比べあり。むつめ祭で賢くなろう！！",
-    logo: "https://drive.google.com/open?id=1Zff-Foj6Ak25LcWLw7aGl3Y7GkaTLvr2",
-    SNS: "https://x.com/CuriousAbout000"
+    logo: "coffee",
+    X: "https://x.com/CuriousAbout000",
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "608",
-    group: "埼玉大学手話サークル　ゆびつむぎ",
+    group: "埼玉大学手話サークル ゆびつむぎ",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "全学講義棟1号館",
     room_num: 203,
     show_place: null,
@@ -301,15 +373,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "手話接客のカフェ形式でドリンクやフードを販売する",
     explanation: "手話に触れながらほっと一息ついていきませんか？",
-    logo: "https://drive.google.com/open?id=1r_ry4m0brN9lhXlAFRPdlRnvLUzbVqBN",
-    SNS: "https://www.instagram.com/su.yubitsumugi?igsh=NWdoN2llaG1nczJ6\n\nhttps://x.com/SU_Yubitsumugi?t=iRvhbatJ-LZNjKV3MItR-Q&s=09"
+    logo: "yubitsumugi",
+    Instagram: "https://www.instagram.com/su.yubitsumugi?igsh=NWdoN2llaG1nczJ6",
+    X: "https://x.com/SU_Yubitsumugi?t=iRvhbatJ-LZNjKV3MItR-Q&s=09",
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "571",
     group: "モダンジャズ研究会",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "全学講義棟1号館",
     room_num: 205,
     show_place: null,
@@ -317,15 +393,19 @@ const dataset_intro = [
     detail_class: "パフォーマンス, 飲食",
     abst: "ジャズの演奏",
     explanation: "ジャズと共に，ゆっくりくつろげるカフェです。心地よいひとときをお楽しみください。",
-    logo: "https://drive.google.com/open?id=1-4StcEw64zE0RKVDQm7xSaALpXNoDhiC",
-    SNS: "https://x.com/SUMJS_/, https://www.instagram.com/SUMJS_/, https://sumjs.fc2.page/"
+    logo: "modernjazz",
+    X: "https://x.com/SUMJS_/",
+    Instagram: "https://www.instagram.com/SUMJS_/",
+    HP: "https://sumjs.fc2.page/",
+    youtube: null,
+    link: null
   },
   {
     number: "530",
     group: "茶道研究会",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "全学講義棟1号館",
     room_num: 206,
     show_place: null,
@@ -333,15 +413,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "抹茶、お菓子の提供",
     explanation: "心安らぐお席でお茶とお菓子はいかがでしょうか。",
-    logo: "https://drive.google.com/open?id=1IM4KuQHqRWhI_XjNV6LdDFv8nW_rDk6G",
-    SNS: "@saidai_chaken\n@saidaichaken"
+    logo: "sado",
+    X: "https://x.com/saidai_chaken",
+    Instagram: "https://www.instagram.com/saidaichaken/?hl=ja",
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "546",
     group: "CHOCOLETZ",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "全学講義棟1号館",
     room_num: 302,
     show_place: null,
@@ -349,15 +433,19 @@ const dataset_intro = [
     detail_class: "パフォーマンス",
     abst: "アカペラライブ",
     explanation: "声だけで演奏する…妙だな… \nペロｯ \n！？ こ、これは、アカペラライブ‼︎‼︎",
-    logo: "https://drive.google.com/open?id=1Q-muw_3a6KTts0qH_aeU37oy6N1G0NFp",
-    SNS: "@chocoletz_koho（X 旧Twitter） @chocoletz.acappella（Instagram）"
+    logo: "chocoletz",
+    X: "https://x.com/chocoletz_koho",
+    Instagram:"https://www.instagram.com/chocoletz.acappella/?hl=ja",
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "570",
     group: "映像研究会メイビー",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "全学講義棟1号館",
     room_num: 302,
     show_place: null,
@@ -365,15 +453,19 @@ const dataset_intro = [
     detail_class: "展示",
     abst: "自主制作映画の上映",
     explanation: "当サークルで制作した短編映画を上映します。全米が泣いた。",
-    logo: "https://drive.google.com/open?id=11ENy4L-iFcgYehSm_WtVKIfAWmWmotVX",
-    SNS: "X:https://x.com/mavie_saidai\nInstagram:https://www.instagram.com/mavie_saidai"
+    logo: "MaVie",
+    X:"https://x.com/mavie_saidai",
+    Instagram:"https://www.instagram.com/mavie_saidai",
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "577",
     group: "落語研究会",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "全学講義棟1号館",
     room_num: 304,
     show_place: null,
@@ -381,15 +473,20 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "落語の寄席",
     explanation: "落語なんて馬鹿馬鹿しい話だと思われがちですが、真剣に聞いてみると案外、、、馬鹿馬鹿しい話です！！",
-    logo: "https://drive.google.com/open?id=1j2Ery3zQfON03XIjDgvXHpchn-8qiwPd",
-    SNS: "メール:saidaiotiken@gmail.com\nX:@SaidaiOtiken\nInstagram:saidai_ochiken"
+    logo: "rakugo",
+    Mail:"saidaiotiken@gmail.com",
+    X:"https://x.com/SaidaiOtiken",
+    Instagram:"https://www.instagram/saidai_ochiken",
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
-    number: "015",
+    number: "15",
     group: "数学科有志",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "全学講義棟1号館",
     room_num: 305,
     show_place: null,
@@ -397,31 +494,19 @@ const dataset_intro = [
     detail_class: "飲食, 数学おもしろ話コンペティション",
     abst: "コーヒーや菓子の販売、数学にまつわるおもしろ話の大会",
     explanation: "数学カフェです。参加者が面白い数学の話で競います。ぜひ来てくださいね！",
-    logo: "https://drive.google.com/open?id=16sLQZPDcrQ7hr4Kj_OQ6K4M0H5KqwVcC",
-    SNS: null
+    logo: "mathematica",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
-    number: "015",
-    group: "数学科有志",
-    class: "屋内",
-    area: null,
-    "area_num": null,
-    room: "全学講義棟1号館",
-    room_num: 305,
-    show_place: null,
-    name: "café Mathématiques",
-    detail_class: "飲食, 数学おもしろ話コンペティション",
-    abst: "コーヒーや菓子の販売、数学にまつわるおもしろ話の大会",
-    explanation: "数学カフェです。参加者が面白い数学の話で競います。ぜひ来てくださいね！",
-    logo: "https://drive.google.com/open?id=1BPLEgPGxIrna2UZa_meY4PZpOoY4rG5A",
-    SNS: null
-  },
-  {
-    number: "018",
+    number: "18",
     group: "埼玉大学メイド部",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "全学講義棟1号館",
     room_num: 401,
     show_place: null,
@@ -429,15 +514,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "メイド喫茶(飲食販売)",
     explanation: "可愛いメイドさんやかっこいい執事さんたちがご主人様のお帰りを心よりお待ちしております♪",
-    logo: "https://drive.google.com/open?id=10TWC_0XuQEhvVOBgoslDrcxarZHPi9Dw",
-    SNS: "https://x.com/saidaimaid?s=21&t=CdgJGGI8H8Zd000x_Mg15g"
+    logo: "maid",
+    X: "https://x.com/saidaimaid?s=21&t=CdgJGGI8H8Zd000x_Mg15g",
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "518",
     group: "埼玉大学合唱団",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "全学講義棟1号館",
     room_num: 403,
     show_place: null,
@@ -445,31 +534,19 @@ const dataset_intro = [
     detail_class: "パフォーマンス",
     abst: "合唱披露",
     explanation: "約30分のミニコンサートを是非お楽しみ下さい！",
-    logo: "https://drive.google.com/open?id=1tYh_OSbjpKSKMKIBoBLtQDVZJvTtYP1c",
-    SNS: "https://saitamaunivchoir.wixsite.com/saitamaunivchrous\nhttps://x.com/st_univ_choir\nhttps://x.com/st_univ_choir"
-  },
-  {
-    number: "518",
-    group: "埼玉大学合唱団",
-    class: "屋内",
-    area: null,
-    "area_num": null,
-    room: "全学講義棟1号館",
-    room_num: 403,
-    show_place: null,
-    name: "埼玉大学合唱団",
-    detail_class: "パフォーマンス",
-    abst: "合唱披露",
-    explanation: "約30分のミニコンサートを是非お楽しみください！",
-    logo: "https://drive.google.com/open?id=1yEhAgIqxJq_572TNAD_Jbn6u4DKADvG8",
-    SNS: "https://saitamaunivchoir.wixsite.com/saitamaunivchrous\nhttps://x.com/st_univ_choir\nhttps://www.instagram.com/su_chorus/"
+    logo: "gassyodan",
+    HP: "https://saitamaunivchoir.wixsite.com/saitamaunivchrous",
+    X: "https://x.com/st_univ_choir",
+    Instagram:"https://x.com/st_univ_choir",
+    youtube: null,
+    link: null
   },
   {
     number: "549",
     group: "埼玉大学鐵道研究会",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "全学講義棟1号館",
     room_num: null,
     show_place: null,
@@ -477,15 +554,19 @@ const dataset_intro = [
     detail_class: "展示",
     abst: "展示発表(Nゲージ、プラレール、切符など)",
     explanation: "プラレールや鉄道模型の展示、Nゲージの運転体験などを実施しています！",
-    logo: "https://drive.google.com/open?id=1nbGjmU-nh-l1nyO6nm1VwvLUZCVQSoRD",
-    SNS: null
+    logo: "tetudoukennkyuukai",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "513",
     group: "オリジナルソング研究会",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "全学講義棟2号館",
     room_num: 101,
     show_place: null,
@@ -493,15 +574,19 @@ const dataset_intro = [
     detail_class: "パフォーマンス",
     abst: "バンド演奏",
     explanation: "気持ちいいバンドサークルです。幅広いジャンルの演奏をぜひ見に来てください！",
-    logo: "https://drive.google.com/open?id=12QX0MfSx5nlt_o4gd2WgXnjxAIE1tpmJ",
-    SNS: "https://x.com/orison2015?s=21"
+    logo: "originalsongkennkyuukai",
+    X: "https://x.com/orison2015?s=21",
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
-    number: "006",
+    number: "6",
     group: "埼玉大学リコーダーサークル",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "全学講義棟2号館",
     room_num: 102,
     show_place: null,
@@ -509,15 +594,19 @@ const dataset_intro = [
     detail_class: "パフォーマンス",
     abst: "リコーダーアンサンブルの演奏",
     explanation: "リコーダーアンサンブルを埼玉大学で初披露します！ぜひお立ち寄りください！",
-    logo: "https://drive.google.com/open?id=1IzGa4U9Q-A2EF90x7WM7qtRECuSi0cRZ",
-    SNS: "https://x.com/SUrecorder\nhttps://www.instagram.com/src_saitama_recorder/"
+    logo: "riko-da-",
+    X: "https://x.com/SUrecorder",
+    Instagram: "https://www.instagram.com/src_saitama_recorder/",
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "510",
     group: "LMS&ロック研究会",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "全学講義棟2号館",
     room_num: 103,
     show_place: null,
@@ -525,15 +614,19 @@ const dataset_intro = [
     detail_class: "パフォーマンス",
     abst: "バンドの演奏",
     explanation: "LMS&ロック研究会は楽しく愉快なバンドサークルです！ライブやります！ぜひ気軽に立ち寄ってください！",
-    logo: "https://drive.google.com/open?id=18cqMlPmIhKKNX18wLn13d5zimNglYaPQ",
-    SNS: "https://x.com/lmsrocken"
+    logo: "LMSrock",
+    X: "https://x.com/lmsrocken",
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "554",
     group: "B.F.G.A.",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "全学講義棟2号館",
     room_num: 201,
     show_place: null,
@@ -541,15 +634,19 @@ const dataset_intro = [
     detail_class: "パフォーマンス",
     abst: "バンド演奏",
     explanation: "軽音楽サークルB.F.G.A.です！あなたの好きなバンドコピーが出るかも…⁉",
-    logo: "https://drive.google.com/open?id=10Kr27gwBh_sOD41wbwLoZDxrIZq8pvkr",
-    SNS: "X：https://x.com/BFGA_　Instagram：https://www.instagram.com/b.f.g.a_/?igsh"
+    logo: "BFGA",
+    X:"https://x.com/BFGA_",
+    Instagram:"https://www.instagram.com/b.f.g.a_/?igsh",
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "519",
     group: "華道部",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "全学講義棟2号館",
     room_num: 202,
     show_place: null,
@@ -557,15 +654,19 @@ const dataset_intro = [
     detail_class: "展示, 体験",
     abst: "生花の展示、生花体験会",
     explanation: "生花の展示と、簡単な生花体験会を行います！お気軽にご参加ください！",
-    logo: "https://drive.google.com/open?id=1uKW6NzT0vwkEOH9BLAzHJ9UBywLRPaU-",
-    SNS: "@kado87bu"
+    logo: "kadobu",
+    Instagram: "https://www.instagram.com/kado87bu/?hl=ja",
+    X: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "515",
     group: "音楽研究会のび　楽器班",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "全学講義棟2号館",
     room_num: 203,
     show_place: null,
@@ -573,15 +674,19 @@ const dataset_intro = [
     detail_class: "パフォーマンス",
     abst: "バンドのライブ",
     explanation: "音楽研究会のびでは、バンドを組み毎月ライブをしています。たくさんのバンドが見れるのでお気軽にどうぞ！",
-    logo: "https://drive.google.com/open?id=158swqDVfoQalmre9GghMiZ51iPqfrA6d",
-    SNS: null
+    logo: "onnkennnobi",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
-    number: "020",
+    number: "20",
     group: "さいブラ",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "全学講義棟2号館",
     room_num: 501,
     show_place: null,
@@ -589,15 +694,19 @@ const dataset_intro = [
     detail_class: "パフォーマンス",
     abst: "eスポーツを通じた交流",
     explanation: "全学2-501で飛び入り参加OKのスマブラ対戦会！23日(土)は自由に対戦、24日(日)は大会形式。",
-    logo: "https://drive.google.com/open?id=1qIqWdXUqy4qd2IYcrKSEzTveX_8iOyDW",
-    SNS: "https://x.com/SaitamaBros11"
+    logo: "saibura",
+    X: "https://x.com/SaitamaBros11",
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "512",
     group: "Petit French Kiss",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "全学講義棟2号館",
     room_num: 502,
     show_place: null,
@@ -605,15 +714,19 @@ const dataset_intro = [
     detail_class: "パフォーマンス",
     abst: "演劇発表",
     explanation: "演劇サークルPFKです！多種多様な演目をお楽しみ下さい！",
-    logo: "https://drive.google.com/open?id=1qEMR3ieGH4o5tiYQpqnwnjfOz0hxN3sW",
-    SNS: "https://x.com/PFKsaidai\nhttps://www.instagram.com/pfk_su/\nhttps://www.youtube.com/@petitfrenchkiss2693"
+    logo: "petit",
+    X: "https://x.com/PFKsaidai",
+    Instagram: "https://www.instagram.com/pfk_su/",
+    youtube: "https://www.youtube.com/@petitfrenchkiss2693",
+    HP: null,
+    link: null
   },
   {
     number: "598",
     group: "埼玉大学宇宙工学サークルあかとき",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "全学講義棟3号館",
     room_num: 201,
     show_place: null,
@@ -621,15 +734,19 @@ const dataset_intro = [
     detail_class: "展示, 体験",
     abst: "CanSat展示、探査機操縦体験",
     explanation: "CanSat (模擬人工衛星)のラジコン操縦体験ができます！3Dプリンタの稼働風景も見られるかも？",
-    logo: "https://drive.google.com/open?id=1c6xM_dYn4-HNvoQCDJKWno1xSsWtopSP",
-    SNS: "https://x.com/aktk_saidai"
+    logo: "akatoki",
+    X: "https://x.com/aktk_saidai",
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "561",
     group: "文芸部レーゼ",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "全学講義棟3号館",
     room_num: 202,
     show_place: null,
@@ -637,15 +754,19 @@ const dataset_intro = [
     detail_class: "物販, 体験",
     abst: "シーリングワックス体験、部誌の販売",
     explanation: "シーリングワックス体験と一期一会レターという企画をします！大切なあの人にお手紙を書いてみませんか？",
-    logo: "https://drive.google.com/open?id=1-22ZxEk0M4RVuaZfsXiswxMVBxcrr6j6",
-    SNS: "@su-literaryclub"
+    logo: "le-zenn",
+    X: "https://x.com/su-literaryclub",
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "502",
     group: "Arpeggio",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "全学講義棟3号館",
     room_num: 203,
     show_place: null,
@@ -653,15 +774,19 @@ const dataset_intro = [
     detail_class: "パフォーマンス",
     abst: "バンド演奏",
     explanation: "Arpeggioです！全学講義3-203とサル山でLIVEを行います。是非見に来てください！",
-    logo: "https://drive.google.com/open?id=1DmCpY3rdKvJsHCxA9GXDmDJ2hPvEiS0w",
-    SNS: "Instagram：https://t.co/Tsrdj1995q\nTwitter： https://twitter.com/arpeggio_saidai"
+    logo: "arpeggio",
+    X: "https://twitter.com/arpeggio_saidai",
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "509",
     group: "学生団体FP",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "総合体育館",
     room_num: null,
     show_place: null,
@@ -669,31 +794,19 @@ const dataset_intro = [
     detail_class: "パフォーマンス",
     abst: "コンテスト",
     explanation: "男女5名のファイナリストによる個性を重視したコンテスト。魅力あふれる5名の姿をお楽しみください！",
-    logo: "https://drive.google.com/open?id=1zfdHWs63WsE5mT34NJnBn3VP2mAzZoCn",
-    SNS: "https://www.instagram.com/saidaicontest/"
+    logo: "FPcontest",
+    Instagram: "https://www.instagram.com/saidaicontest/",
+    X: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
-    number: "509",
-    group: "学生団体FP",
-    class: "屋内",
-    area: null,
-    "area_num": null,
-    room: "総合体育館",
-    room_num: null,
-    show_place: null,
-    name: "Saidai Contest@総合体育館",
-    detail_class: "パフォーマンス",
-    abst: "SAIDAI CONTEST",
-    explanation: "男女5名のファイナリストによる個性を重視したコンテスト。魅力あふれる5名の姿をお楽しみください！",
-    logo: "https://drive.google.com/open?id=1DI57mFhJbSPp9rnbMCWyyuYAAGdKdI09",
-    SNS: "https://www.instagram.com/saidaicontest?igsh=MXZqZnNuaWM0M2ZvaA=="
-  },
-  {
-    number: "024",
+    number: "24",
     group: "チアダンスチームSprouts",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "総合体育館",
     room_num: null,
     show_place: null,
@@ -701,47 +814,39 @@ const dataset_intro = [
     detail_class: "パフォーマンス",
     abst: "チアダンスの披露",
     explanation: "学内でのSproutsのパフォーマンスは初めてです！皆さんに笑顔と元気を届けられるように頑張ります！",
-    logo: "https://drive.google.com/open?id=1olPmELdgeJqw1Jr7ywFhUSKvzIV3sez8",
-    SNS: "https://x.com/cheer_dance_su?s=21&t=kDjhtgEDoCypswt-qQCqZw\nhttps://www.instagram.com/sprouts_saitama?igsh=YmV2Yzc2MmppMG03&utm_source=qr"
+    logo: "sprouts",
+    X: "https://x.com/cheer_dance_su?s=21&t=kDjhtgEDoCypswt-qQCqZw",
+    Instagram:"https://www.instagram.com/sprouts_saitama?igsh=YmV2Yzc2MmppMG03&utm_source=qr",
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "506",
     group: "裏千家茶道文化研究部",
     class: "屋内",
     area: null,
-    "area_num": null,
-    room: "大学会館二階和室",
-    room_num: null,
-    show_place: null,
-    name: "火恋し茶会",
-    detail_class: "飲食",
-    abst: "お茶と和菓子を楽しむ茶会の体験",
-    explanation: "あたたかく色鮮やかな秋の茶会に参加してみませんか？大学会館2階和室でお待ちしています！",
-    logo: "https://drive.google.com/open?id=17vnuWM8CudpdnndrxpuuwidKSIP07C3e",
-    SNS: "https://x.com/charakukai"
-  },
-  {
-    number: "506",
-    group: "裏千家茶道文化研究部",
-    class: "屋内",
-    area: null,
-    "area_num": null,
-    room: "大学会館和室",
-    room_num: null,
+    area_num: null,
+    room: "大学会館",
+    room_num: "和",
     show_place: null,
     name: "秋麗茶会",
     detail_class: "飲食",
     abst: "お茶と和菓子を楽しむ茶会の体験",
     explanation: "色鮮やかな秋の茶会に参加してみませんか?大学会館2階和室でお待ちしています!",
-    logo: "https://drive.google.com/open?id=1oKCaT5kwS-wKsag6gLIcJsRIc1a3yHG-",
-    SNS: "https://x.com/charakukai?s=21"
+    logo: "urasennke",
+    X: "https://x.com/charakukai?s=21",
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "103",
     group: "After Beat Club",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "第一体育館",
     room_num: null,
     show_place: null,
@@ -749,15 +854,19 @@ const dataset_intro = [
     detail_class: "パフォーマンス",
     abst: "ダンスパフォーマンス",
     explanation: "約190人のサークル員で最高なダンスをお見せします！アフタビのアットホームな雰囲気をお楽しみに！！",
-    logo: "https://drive.google.com/open?id=1WayZebeGKBZTtOfMjckXMMpXIwOwC1nl",
-    SNS: "https://www.instagram.com/afterbeatclub?igsh=MTkxeDIzcGIzZnNubw=="
+    logo: "afterbeat",
+    Instagram: "https://www.instagram.com/afterbeatclub?igsh=MTkxeDIzcGIzZnNubw==",
+    X: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "136",
     group: "新体操部",
     class: "屋内",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: "第一体育館",
     room_num: null,
     show_place: null,
@@ -765,15 +874,19 @@ const dataset_intro = [
     detail_class: "パフォーマンス",
     abst: "新体操、ダンスパフォーマンス",
     explanation: "新体操やJAZZダンス、チア、アイドルカバーダンスなどを披露します！ぜひ観に来てください！",
-    logo: "https://drive.google.com/open?id=1KwIQlrla9wmapHhvEz35DH5j5hR75rRw",
-    SNS: "インスタ：saidai_shintaiso　X：saidaishintaiso"
+    logo: "shinntaisou",
+    Instagram: "https://www.instagram.com/saidai_shintaiso",
+    X: "https://x.com/saidaishintaiso",
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "157",
     group: "Butit's",
     class: "屋外",
     area: "A地区",
-    "area_num": 1,
+    area_num: 1,
     room: null,
     room_num: null,
     show_place: null,
@@ -781,15 +894,20 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "焼きそばの販売",
     explanation: "バトミントンサークルButit'sによる焼きそばです！むつめ祭のお供にご賞味ください！！",
-    logo: "https://drive.google.com/open?id=14Pl7OQ0bLd-0Dv3y1bNlmvYNCKLxcJta",
-    SNS: "Instagram,x(Twitter)共に@/shiso_butits"
+    logo: "butits",
+    X: "https://x.com/shiso_butits",
+    Instagram: "https://www.instagram.com/shiso_butits/?hl=ja",
+    youtube: null,
+    HP: null,
+    link: null
+
   },
   {
     number: "582",
     group: "STUDY FOR TWO 埼玉大学支部",
     class: "屋外",
     area: "A地区",
-    "area_num": 2,
+    area_num: 2,
     room: null,
     room_num: null,
     show_place: null,
@@ -797,15 +915,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "たい焼きの販売",
     explanation: "SFTのお楽しみたい焼き！定番から変わり種までいろんな味が楽しめます！",
-    logo: "https://drive.google.com/open?id=16PIE0oLjUBxf1ZJ5QYJG44sg653DWncY",
-    SNS: "Instagram, X: @STUDY42_SAITAMA"
+    logo: "studyfortwo",
+    X: "https://x.com/STUDY42_SAITAMA",
+    Instagram: "https://www.instagram.com/STUDY42_SAITAMA/?hl=ja",
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "114",
     group: "CLOVER",
     class: "屋外",
     area: "A地区",
-    "area_num": 3,
+    area_num: 3,
     room: null,
     room_num: null,
     show_place: null,
@@ -813,15 +935,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "チゲ鍋の販売",
     explanation: "寒い日には鍋！！激アツのチゲ鍋で心も体もあつあつ！！完璧でdeliciousなチゲ鍋をあなたに！！",
-    logo: "https://drive.google.com/open?id=1_Mgsm3nv0AjNe5w7S9wWGVliI2SDIecO",
-    SNS: "https://www.instagram.com/clover_2013_?igsh=MTVzMWd6NDFpN3VrcQ=="
+    logo: "clover",
+    Instagram: "https://www.instagram.com/clover_2013_?igsh=MTVzMWd6NDFpN3VrcQ==",
+    X: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
-    number: "011",
+    number: "11",
     group: "F.C.parfait",
     class: "屋外",
     area: "A地区",
-    "area_num": 4,
+    area_num: 4,
     room: null,
     room_num: null,
     show_place: null,
@@ -829,15 +955,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "チョコバナナ",
     explanation: "F.C.parfaitがチョコバナナを売ります！ぜひ食べにきてね！",
-    logo: "https://drive.google.com/open?id=13lQ7XCBt0-Qi1iPQaSvjtEQRIkp31Nb4",
-    SNS: "https://www.instagram.com/su_fc.parfait?igsh=MTd0ZGFkaHFpZXQ0"
+    logo: "fcparfait",
+    Instagram: "https://www.instagram.com/su_fc.parfait?igsh=MTd0ZGFkaHFpZXQ0",
+    X: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "111",
     group: "Order Made",
     class: "屋外",
     area: "A地区",
-    "area_num": 6,
+    area_num: 6,
     room: null,
     room_num: null,
     show_place: null,
@@ -845,15 +975,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "餃子の販売",
     explanation: "OMは手づくり餃子を販売します！\n頑張っておいしく作るのでぜひ来てください♡",
-    logo: "https://drive.google.com/open?id=157ufm56jpFFl65OaMbmN9I_-ZUiyZY37",
-    SNS: "https://www.instagram.com/om_saidai?igsh=MXV6ZzZlMGprNTJiZA=="
+    logo: "ordermade",
+    Instagram: "https://www.instagram.com/om_saidai?igsh=MXV6ZzZlMGprNTJiZA==",
+    X: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "122",
     group: "埼玉大学サイクリング部",
     class: "屋外",
     area: "A地区",
-    "area_num": 7,
+    area_num: 7,
     room: null,
     room_num: null,
     show_place: null,
@@ -861,15 +995,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "クレープの販売",
     explanation: "サイクリング部は、クレープを販売しています！生地から手作りの熱々のクレープを是非！",
-    logo: "https://drive.google.com/open?id=1fxEyp7QihC65imTlr97V8XF_YUeMGI4A",
-    SNS: null
+    logo: "cycling",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
-    number: "https://drive.google.com/open?id=1c6xM_dYn4-HNvoQCDJKWno1xSsWtopSP",
+    number: "600",
     group: "ニイイチ",
     class: "屋外",
     area: "A地区",
-    "area_num": 8,
+    area_num: 8,
     room: null,
     room_num: null,
     show_place: null,
@@ -877,15 +1015,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "クラムチャウダーの販売",
     explanation: "むつめ祭愛好家の私たちによる温かいクラムチャウダーはいかがですか？心も体も温まるひとときをどうぞ！",
-    logo: "https://drive.google.com/open?id=1fAhu7MdE4ZSDBiyBIMC0jkiFlVq3XaiP",
-    SNS: "https://www.instagram.com/niiichi_we_love_mutume?igsh=MTVrZW9jYWVuaXhtaA%3D%3D&utm_source=qr\n\nhttps://twitter.com/we_love_mutsme"
+    logo: "niichi",
+    X:"https://twitter.com/we_love_mutsme",
+    Instagram: "https://www.instagram.com/niiichi_we_love_mutume?igsh=MTVrZW9jYWVuaXhtaA%3D%3D&utm_source=qr",
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
-    number: "021",
+    number: "21",
     group: "SMCA",
     class: "屋外",
     area: "A地区",
-    "area_num": 9,
+    area_num: 9,
     room: null,
     room_num: null,
     show_place: null,
@@ -893,15 +1035,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "ケバブの販売",
     explanation: "ケバブの販売",
-    logo: "https://drive.google.com/open?id=1pX6MxoXs1TTzcymyVC8opW1NSjtWrKQX",
-    SNS: null
+    logo: "SMCA",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
-    number: "012",
+    number: "12",
     group: "EMA",
     class: "屋外",
     area: "A地区",
-    "area_num": 10,
+    area_num: 10,
     room: null,
     room_num: null,
     show_place: null,
@@ -909,15 +1055,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "ベビーカステラの販売",
     explanation: "EMAこと「教育学部英語専修」です！ Would you like some dessert?",
-    logo: "https://drive.google.com/open?id=1_hXAqPIHr9JGYpCEMMbHI8AMyRJL095X",
-    SNS: null
+    logo: "EMA",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "541",
     group: "埼玉大学Swing Cube Jazz Orchestra",
     class: "屋外",
     area: "A地区",
-    "area_num": 11,
+    area_num: 11,
     room: null,
     room_num: null,
     show_place: null,
@@ -925,15 +1075,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "わたあめの販売",
     explanation: "本大学唯一のビックバンド！わたあめ作りとサル山パフォーマンスの二刀流！甘い音色と味をお楽しみに",
-    logo: "https://drive.google.com/open?id=1oFCGdsglalChkufyVyB8qC2L7_8V4LSe",
-    SNS: "https://www.instagram.com/scjo_white?igsh=NjVjZjc5MjU5eHM0&utm_source=qr"
+    logo: "swingjazz",
+    Instagram: "https://www.instagram.com/scjo_white?igsh=NjVjZjc5MjU5eHM0&utm_source=qr",
+    X: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "147",
     group: "Peko",
     class: "屋外",
     area: "A地区",
-    "area_num": 12,
+    area_num: 12,
     room: null,
     room_num: null,
     show_place: null,
@@ -941,15 +1095,20 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "おしるこの販売",
     explanation: "寒い時期にぴったり！あったか～いおしるこを販売しています！\nお一ついかがでしょうか？　",
-    logo: "https://drive.google.com/open?id=1qlrAU2NBJxjhqevU837F_Hz6Iz4dlUlG",
-    SNS: "pekosaidai@gmail.com\nhttps://twitter.com/peko_saidai"
+    logo: "peko",
+    Mail: "pekosaidai@gmail.com",
+    X: "https://twitter.com/peko_saidai",
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "156",
     group: "BOPBOP ",
     class: "屋外",
     area: "A地区",
-    "area_num": 13,
+    area_num: 13,
     room: null,
     room_num: null,
     show_place: null,
@@ -957,15 +1116,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "アヒージョの販売",
     explanation: "アヒージョですおいしいよ",
-    logo: "https://drive.google.com/open?id=1VMmJJP21Tht1QsJr3Q6JSTjVvThs7HKQ",
-    SNS: "https://x.com/bopbop_29?s=21\nhttps://www.instagram.com/bopbop_su?igsh=MTRybGlhZzJkOXMyeA=="
+    logo: "bopbop",
+    X: "https://x.com/bopbop_29?s=21",
+    Instagram: "https://www.instagram.com/bopbop_su?igsh=MTRybGlhZzJkOXMyeA==",
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "155",
     group: "排友会 gullwings",
     class: "屋外",
     area: "A地区",
-    "area_num": 14,
+    area_num: 14,
     room: null,
     room_num: null,
     show_place: null,
@@ -973,15 +1136,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "まぜそば｢ガッチャメン｣の販売",
     explanation: "あの超有名ラーメン屋店主が学生時代に作った｢まぜそば｣を完全再現！この味は梵友会でしか味わえない！！",
-    logo: "https://drive.google.com/open?id=17RSK58RPrwdO8lQHzK1nDNLUj0yZ7SQp",
-    SNS: "・Instagram\nhttps://www.instagram.com/haiyu_kai1214?igsh=NXE5YnJlY3Y3bGJx\n\n・X\nhttps://x.com/haiyukai1214_?t=9ngxhlbOOlYd2ZMZhqHs5g&s=09"
+    logo: "haiyuukai",
+    Instagram:"https://www.instagram.com/haiyu_kai1214?igsh=NXE5YnJlY3Y3bGJx",
+    X: "https://x.com/haiyukai1214_?t=9ngxhlbOOlYd2ZMZhqHs5g&s=09",
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
-    number: "521",
+    number: "5211",
     group: "管弦楽団",
     class: "屋外",
     area: "A地区",
-    "area_num": 15,
+    area_num: 15,
     room: null,
     room_num: null,
     show_place: null,
@@ -989,15 +1156,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "ちーずぼーるの販売",
     explanation: "ちーずぼーる売ってます！食べに来てください！",
-    logo: "https://drive.google.com/open?id=1ZcWAishFiguvU7QhE6kwg7c6byci4GAp",
-    SNS: "https://blinks.fyi/saidaioke"
+    logo: "kanngenngakudann",
+    link: "https://blinks.fyi/saidaioke",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
   },
   {
-    number: "002",
+    number: "2",
     group: "沖縄県人会",
     class: "屋外",
     area: "A地区",
-    "area_num": 16,
+    area_num: 16,
     room: null,
     room_num: null,
     show_place: null,
@@ -1005,15 +1176,20 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "沖縄そば",
     explanation: "はいさいー、沖縄出身が集まり、沖縄そばを販売してます。沖縄を感じたい方は是非是非お越しくださいー！！",
-    logo: "https://drive.google.com/open?id=1-yar4hxlst_N3HYXLpBvbwKseePm8iKC",
-    SNS: "https://www.instagram.com/saitama.uni__okinawa?igsh=NTgxaTRtbTV5c2Ji&utm_source=qr"
+    logo: "okinawakennjinnkai",
+    Instagram: "https://www.instagram.com/saitama.uni__okinawa?igsh=NTgxaTRtbTV5c2Ji&utm_source=qr",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "113",
     group: "弓道部",
     class: "屋外",
     area: "A地区",
-    "area_num": 17,
+    area_num: 17,
     room: null,
     room_num: null,
     show_place: null,
@@ -1021,15 +1197,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "だんご　おしるこ　緑茶",
     explanation: "みんなで仲良くおだんごつくってます。\nおだんこたべてほっこりしましょ〜",
-    logo: "https://drive.google.com/open?id=14t32uhqbEePtwFm2UrvnfSebUNx6G3jd",
-    SNS: "https://twitter.com/saidaikyudoclub\n\nhttps://www.instagram.com/saidai_kyudo?igsh=MTgzaDc2aHYyOW5mbA=="
+    logo: "kyuudobu",
+    X: "https://twitter.com/saidaikyudoclub",
+    Instagram: "https://www.instagram.com/saidai_kyudo?igsh=MTgzaDc2aHYyOW5mbA==",
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "120",
     group: "硬式野球部",
     class: "屋外",
     area: "A地区",
-    "area_num": 18,
+    area_num: 18,
     room: null,
     room_num: null,
     show_place: null,
@@ -1037,15 +1217,19 @@ const dataset_intro = [
     detail_class: "パフォーマンス, 飲食",
     abst: "豚汁、牛串、豚串、焼き鳥",
     explanation: "こんにちは！硬式野球部です。初めてのむつめ祭参加ですが、野球部らしく元気いっぱいです！！ぜひきてねー",
-    logo: "https://drive.google.com/open?id=1s5jZR2I0j5MTe0QJI-qTQ85kSXuJwfpe",
-    SNS: "https://www.instagram.com/saitamabbc89?igsh=MjJqN3U3ZG9ua3Vm&utm_source=qr"
+    logo: "koushikiyakyuubu",
+    Instagram: "https://www.instagram.com/saitamabbc89?igsh=MjJqN3U3ZG9ua3Vm&utm_source=qr",
+    X: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
-    number: "007",
+    number: "7",
     group: "学生団体FP(OB会)",
     class: "屋外",
     area: "B地区",
-    "area_num": 1,
+    area_num: 1,
     room: null,
     room_num: null,
     show_place: null,
@@ -1053,15 +1237,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "焼き菓子の販売",
     explanation: "手作りのカップケーキやマドレーヌなどのお菓子を用意してお待ちしております！ドリンクもあります！",
-    logo: "https://drive.google.com/open?id=1aqTV9eGICiMOMWvgmy9bu8yfzXfv_Tir",
-    SNS: "https://www.instagram.com/fpsaidai/"
+    logo: "FP",
+    Instagram: "https://www.instagram.com/fpsaidai/",
+    X: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "586",
     group: "Rubbers",
     class: "屋外",
     area: "B地区",
-    "area_num": 2,
+    area_num: 2,
     room: null,
     room_num: null,
     show_place: null,
@@ -1069,15 +1257,19 @@ const dataset_intro = [
     detail_class: "飲食, 展示",
     abst: "おしるこの販売、展示",
     explanation: "あったかいおしるこの販売をしています！またブースで「包括的性教育」の展示を行っています！",
-    logo: "https://drive.google.com/open?id=1AUzMMztL_9tUzgRVguUgdtIm33nwsN4h",
-    SNS: null
+    logo: "rubbers",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "131",
     group: "jogging愛好会",
     class: "屋外",
     area: "B地区",
-    "area_num": 5,
+    area_num: 5,
     room: null,
     room_num: null,
     show_place: null,
@@ -1085,15 +1277,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "あげパンの販売",
     explanation: "昔懐かしのあげパン！目の前でお作りした熱々を提供いたします！安いよ！",
-    logo: "https://drive.google.com/open?id=1ZJ_thtibuq2WX6kmSn6SUNgdHWMowjc0",
-    SNS: "https://www.instagram.com/jogging_saitamauniv?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+    logo: "jogging",
+    Instagram: "https://www.instagram.com/jogging_saitamauniv?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    X: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
-    number: "004",
+    number: "4",
     group: "こちゃこちゃ屋",
     class: "屋外",
     area: "B地区",
-    "area_num": 6,
+    area_num: 6,
     room: null,
     room_num: null,
     show_place: null,
@@ -1101,15 +1297,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "油そばの販売",
     explanation: "お店の味といい勝負？！あの油そばが今年も帰ってきた！これを食べずにむつめ祭からは帰れない…",
-    logo: "https://drive.google.com/open?id=1AeJzrex-QFkdO4272QXZDVB2aDLr5VEQ",
-    SNS: null
+    logo: "kochakocha",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "538",
     group: "スイーツ研究会Dolce",
     class: "屋外",
     area: "B地区",
-    "area_num": 7,
+    area_num: 7,
     room: null,
     room_num: null,
     show_place: null,
@@ -1117,15 +1317,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "焼き菓子、タピオカドリンク、ソフトドリンクの販売",
     explanation: "私たちDolceでは様々なお菓子作りを研究しています。新しく出した飲み物と一緒にご賞味ください！",
-    logo: "https://drive.google.com/open?id=112t5BPC7n2ftfcpGso2a1iF69wWNtiIX",
-    SNS: "https://www.instagram.com/saidai.dolce/"
+    logo: "dolce",
+    Instagram: "https://www.instagram.com/saidai.dolce/",
+    X: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
-    number: "534",
+    number: "5341",
     group: "写真部",
     class: "屋外",
     area: "C地区",
-    "area_num": 1,
+    area_num: 1,
     room: null,
     room_num: null,
     show_place: null,
@@ -1133,15 +1337,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "じゃがバターの販売",
     explanation: "写真展と併せて、じゃがバター屋さんを出します！アツアツをご用意してお待ちしております！",
-    logo: "https://drive.google.com/open?id=1xBi05zK3KVYQ_GkO8EiYdS1FP_Mz53IN",
-    SNS: "https://x.com/SaidaiPhoto?t=-qBChrHy7OAoPNgXaHjWhQ&s=09"
+    logo: "syashinbu",
+    X: "https://x.com/SaidaiPhoto?t=-qBChrHy7OAoPNgXaHjWhQ&s=09",
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "102",
     group: "愛球会",
     class: "屋外",
     area: "C地区",
-    "area_num": 2,
+    area_num: 2,
     room: null,
     room_num: null,
     show_place: null,
@@ -1149,15 +1357,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "広島焼きの販売。",
     explanation: "昨年、1番の売り上げを誇った大人気広島焼きを販売する野球サークルです！ぜひ、お越しください‼️",
-    logo: "https://drive.google.com/open?id=1s-RQCSkCXcT-oHVcpgZJEGxA1s6-BgTh",
-    SNS: "aikyukai_sd （Instagram）"
+    logo: "aikyuukai",
+    Instagram: "https://www.instagram.com/aikyukai_sd/?hl=ja",
+    X: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "148",
     group: "男子ソフトボール部",
     class: "屋外",
     area: "C地区",
-    "area_num": 3,
+    area_num: 3,
     room: null,
     room_num: null,
     show_place: null,
@@ -1165,15 +1377,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "唐揚げとフライドポテトの販売",
     explanation: "男子ソフトボール部です！ポテトと唐揚げを販売しています！美味しいのでぜひお越しください！",
-    logo: "https://drive.google.com/open?id=1FjAQC27x08PVvstAw_-RxOhcVRvUNTBZ",
-    SNS: "https://www.instagram.com/softball_saidai?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+    logo: "msoftball",
+    Instagram: "https://www.instagram.com/softball_saidai?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    X: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "167",
     group: "女子ラクロス部",
     class: "屋外",
     area: "C地区",
-    "area_num": 4,
+    area_num: 4,
     room: null,
     room_num: null,
     show_place: null,
@@ -1181,15 +1397,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "シャカシャカポテトの販売",
     explanation: "女子ラクロス部がシャカシャカポテトを販売します！！！ぜひ来てください！",
-    logo: "https://drive.google.com/open?id=1kasE72girqyEr9xZ1KVvqzXyFGILGmgS",
-    SNS: "saitama_wlax(Instagram、Twitter)"
+    logo: "racross",
+    X: "https://x.com/saitama_wlax",
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
-    number: "003",
+    number: "3",
     group: "中国留学生会",
     class: "屋外",
     area: "C地区",
-    "area_num": 5,
+    area_num: 5,
     room: null,
     room_num: null,
     show_place: null,
@@ -1197,15 +1417,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "小籠包、桃饅頭、フランク、えびせん、ソフトドリ ンクの販売",
     explanation: "中国本番の小籠包です！毎年大好評！前回のむつめ祭で2000本も突破した超うまい生フランクもどうぞ！",
-    logo: "https://drive.google.com/open?id=1dRWh7f22yK5iT9iWqyFe1N-VwrpY6AH7",
-    SNS: null
+    logo: "china",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "610",
     group: "梨猫",
     class: "屋外",
     area: "C地区",
-    "area_num": 6,
+    area_num: 6,
     room: null,
     room_num: null,
     show_place: null,
@@ -1213,15 +1437,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "たこ焼き、デザートたこ焼きの販売",
     explanation: "音楽劇サークル梨猫です！去年よりも進化した\"本気\"のたこ焼きをご賞味あれ！デザートたこ焼きもあるよ！",
-    logo: "https://drive.google.com/open?id=1tEnknG3UNN1SwI_1fJULanoToEWiJN_t",
-    SNS: null
+    logo: "nashineko",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "159",
     group: "埼玉大学バドミントン部",
     class: "屋外",
     area: "C地区",
-    "area_num": 7,
+    area_num: 7,
     room: null,
     room_num: null,
     show_place: null,
@@ -1229,15 +1457,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "ベビーカステラの販売",
     explanation: "バドミントン部がベビーカステラを販売します！甘いもの欲してる方ぜひいかがですか？",
-    logo: "https://drive.google.com/open?id=1jXsPNLI4c-AW9La-00QxskxQXrQpXTLW",
-    SNS: "x\nhttps://x.com/saidaibad?s=21&t=upORMqbyttOt_8MsAj0LyA\nInstagram\nhttps://www.instagram.com/saidai_bad?igsh=MXR3czcyNDNsam50&utm_source=qr"
+    logo: "badminton",
+    X:"https://x.com/saidaibad?s=21&t=upORMqbyttOt_8MsAj0LyA",
+    Instagram:"https://www.instagram.com/saidai_bad?igsh=MXR3czcyNDNsam50&utm_source=qr",
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "119",
     group: "硬式テニスを楽しむ会",
     class: "屋外",
     area: "C地区",
-    "area_num": 8,
+    area_num: 8,
     room: null,
     room_num: null,
     show_place: null,
@@ -1245,15 +1477,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "チュロス、フライドポテト、豚汁の販売",
     explanation: "もちもちのチュロス、サクサクのフライドポテト、温かい豚汁。むつめ祭で楽しいひと時をお過ごしください！",
-    logo: "https://drive.google.com/open?id=1jcnpJ6zuB4JpEgaekaggVDe46IH_uHt5",
-    SNS: null
+    logo: "kourakukai",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "101",
     group: "埼玉大学合気道部",
     class: "屋外",
     area: "C地区",
-    "area_num": 9,
+    area_num: 9,
     room: null,
     room_num: null,
     show_place: null,
@@ -1261,47 +1497,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "揚げアイスの販売",
     explanation: "外はアツアツ、中はひんやり新感覚！普通のアイスに飽きた方、ぜひご賞味ください♪♪",
-    logo: "https://drive.google.com/open?id=1wDqEScbInBy0AfSDBYaigme9yn0jvvII",
-    SNS: "Instagram:\nhttps://www.instagram.com/saidai_aikido?igsh=MWRqdHBqOXdlajh5aw==\nX:\nhttps://x.com/saidaiaikido?s=11"
-  },
-  {
-    number: "101",
-    group: "埼玉大学合気道部",
-    class: "屋外",
-    area: "C地区",
-    "area_num": 9,
-    room: null,
-    room_num: null,
-    show_place: null,
-    name: "もへえ",
-    detail_class: "飲食",
-    abst: "揚げアイスの販売",
-    explanation: "外はアツアツ、中はひんやり新感覚！普通のアイスに飽きた方、ぜひご賞味ください♪♪",
-    logo: "https://drive.google.com/open?id=1WMJ5sxJnBgGL1YbYaQb3rfQO69du32h5",
-    SNS: "Instagram:\nhttps://www.instagram.com/saidai_aikido?igsh=MWRqdHBqOXdlajh5aw==\nX:\nhttps://x.com/saidaiaikido?s=11"
-  },
-  {
-    number: "101",
-    group: "埼玉大学合気道部",
-    class: "屋外",
-    area: "C地区",
-    "area_num": 9,
-    room: null,
-    room_num: null,
-    show_place: null,
-    name: "もへえ",
-    detail_class: "飲食",
-    abst: "揚げアイスの販売",
-    explanation: "外はアツアツ、中はひんやり新感覚！合気道部のあげアイスをぜひご賞味ください♪♪",
-    logo: "https://drive.google.com/open?id=1dEii-hakcWfFTFrUtcmDAB0pmPRzyxm6",
-    SNS: "Instagram:\nhttps://www.instagram.com/saidai_aikido?igsh=MWRqdHBqOXdlajh5aw==\nX:\nhttps://x.com/saidaiaikido?s=11"
+    logo: "aikido",
+    Instagram:"https://www.instagram.com/saidai_aikido?igsh=MWRqdHBqOXdlajh5aw==",
+    X:"https://x.com/saidaiaikido?s=11",
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "559",
     group: "Formula Project SU-spirited",
     class: "屋外",
     area: "C地区",
-    "area_num": 10,
+    area_num: 10,
     room: null,
     room_num: null,
     show_place: null,
@@ -1309,15 +1517,19 @@ const dataset_intro = [
     detail_class: "展示, 体験",
     abst: "弊サークルで製作した車両の展示並びにドライビングシュミュレータの体験",
     explanation: "自分たちで製作した車両の展示をしています！さらに，ドライビングシュミュレータの体験ができます！",
-    logo: "https://drive.google.com/open?id=1kU-jilWwj1VPfyApLijsVVJa5YePwj04",
-    SNS: "https://lit.link/fpsu24\nhttps://twitter.com/Formula_FPSU\nhttps://www.instagram.com/formula_fpsu/"
+    logo: "formula",
+    link: "https://lit.link/fpsu24",
+    X: "https://twitter.com/Formula_FPSU",
+    Instagram: "https://www.instagram.com/formula_fpsu/",
+    youtube: null,
+    HP: null,
   },
   {
     number: "130",
     group: "埼玉大学少林寺拳法部",
     class: "屋外",
     area: "D地区",
-    "area_num": 1,
+    area_num: 1,
     room: null,
     room_num: null,
     show_place: null,
@@ -1325,15 +1537,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "オムそばの販売",
     explanation: "『広島県公認屋台』伝統の焼きそばにオムレツを添えてどうぞ",
-    logo: "https://drive.google.com/open?id=1Cf4ud4rWM20pdT3ll2OuRIoBGPPe1A1s",
-    SNS: "X\nhttps://twitter.com/saidaishorinji?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor\n\nInstagram\nhttps://www.instagram.com/saidaishorinji?igsh=MXV3bHdjYWZyazlkMg%3D%3D&utm_source=qr"
+    logo: "shorinjikennpobu",
+    X: "https://twitter.com/saidaishorinji?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+    Instagram: "https://www.instagram.com/saidaishorinji?igsh=MXV3bHdjYWZyazlkMg%3D%3D&utm_source=qr",
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
-    number: "017",
+    number: "17",
     group: "賢ゼミ",
     class: "屋外",
     area: "D地区",
-    "area_num": 2,
+    area_num: 2,
     room: null,
     room_num: null,
     show_place: null,
@@ -1341,31 +1557,35 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "五平餅の販売",
     explanation: "賢ゼミは五平餅を販売中！\n北海道産有機大豆から作ったけんぜ味噌使用\nもっちもちの五平餅をご賞味あれ！",
-    logo: "https://drive.google.com/open?id=1DygvTFoqckcJI40YfT0Gp87vht3xGdzc",
-    SNS: null
+    logo: "kennzemi",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
+  // {
+  //   number: "569",
+  //   group: "屋台部署(むつめ祭常任委員会)",
+  //   class: "屋外",
+  //   area: "D地区",
+  //   area_num: 3,
+  //   room: null,
+  //   room_num: null,
+  //   show_place: null,
+  //   name: "屋台部署(むつめ祭常任委員会)",
+  //   detail_class: "飲食",
+  //   abst: "豚汁の販売",
+  //   explanation: "むつめ祭常任委員会です！\n豚汁を販売します！",
+  //   logo: "https://drive.google.com/open?id=16Oc9xbl2nk5Jkhp9iX7w6dsiYwO6Lt01",
+  //   SNS: "https://x.com/mutsume_iinkai"
+  // },
   {
-    number: "569",
-    group: "屋台部署(むつめ祭常任委員会)",
-    class: "屋外",
-    area: "D地区",
-    "area_num": 3,
-    room: null,
-    room_num: null,
-    show_place: null,
-    name: "屋台部署(むつめ祭常任委員会)",
-    detail_class: "飲食",
-    abst: "豚汁の販売",
-    explanation: "むつめ祭常任委員会です！\n豚汁を販売します！",
-    logo: "https://drive.google.com/open?id=16Oc9xbl2nk5Jkhp9iX7w6dsiYwO6Lt01",
-    SNS: "https://x.com/mutsume_iinkai"
-  },
-  {
-    number: "014",
+    number: "14",
     group: "SSG",
     class: "屋外",
     area: "D地区",
-    "area_num": 4,
+    area_num: 4,
     room: null,
     room_num: null,
     show_place: null,
@@ -1373,15 +1593,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "フルーツ飴、チョコバナナ、フライドポテトの販売",
     explanation: "フルーツ飴が特にオススメです！",
-    logo: "https://drive.google.com/open?id=1r8iJi5M0qzZ94862HtCqprCt6-is_NUm",
-    SNS: null
+    logo: "SSG",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "584",
     group: "工作サークルつくってあそぼ",
     class: "屋外",
     area: "D地区",
-    "area_num": 5,
+    area_num: 5,
     room: null,
     room_num: null,
     show_place: null,
@@ -1389,15 +1613,19 @@ const dataset_intro = [
     detail_class: "物販",
     abst: "手作りのキーホルダーやアクセサリーの販売。 バルーンアートの制作・販売。",
     explanation: "メンバー手作りのアクセサリーやキーホルダー、バルーンアートを販売します。ぜひお立ち寄りください！",
-    logo: "https://drive.google.com/open?id=1ynZmoju6CEJuu1EF01HEdwbCKADhX_Qb",
-    SNS: "https://x.com/Saidai_Kousaku"
+    logo: "tsukutteasobo",
+    X: "https://x.com/Saidai_Kousaku",
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
-    number: "008",
+    number: "8",
     group: "ひまわり",
     class: "屋外",
     area: "E地区",
-    "area_num": 2,
+    area_num: 2,
     room: null,
     room_num: null,
     show_place: null,
@@ -1405,15 +1633,19 @@ const dataset_intro = [
     detail_class: "飲食",
     abst: "汁なし担々麺の販売",
     explanation: "史上初。麺屋八頭龍とのコラボで生まれた担々麺。かける想いは満タンで、他店舗にはみんなでアッカンベー！",
-    logo: "https://drive.google.com/open?id=1yue4JTRtVICy7JSeWzCFS8BFpj8lj0bO",
-    SNS: "https://www.instagram.com/here_my_warrior?igsh=ZDVkYmZhbHh3N3hh"
+    logo: "himawari",
+    Instagram: "https://www.instagram.com/here_my_warrior?igsh=ZDVkYmZhbHh3N3hh",
+    X: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
-    number: "101",
+    number: "1011",
     group: "埼玉大学合気道部",
     class: "パフォマ",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: null,
     room_num: null,
     show_place: "サル山",
@@ -1421,31 +1653,19 @@ const dataset_intro = [
     detail_class: "パフォーマンス",
     abst: "合気道の型の演舞",
     explanation: "合気道って何？と思っているあなたに！合気道の魅力が詰まった演舞をぜひご覧ください。",
-    logo: "https://drive.google.com/open?id=1HK7rupI54gfqqmkIBPPdjJZ2Z8bPxLcE",
-    SNS: "Instagram:\nhttps://www.instagram.com/saidai_aikido?igsh=MWRqdHBqOXdlajh5aw==\nX:\nhttps://x.com/saidaiaikido?s=11"
+    logo: "aikidoperform",
+    Instagram:"https://www.instagram.com/saidai_aikido?igsh=MWRqdHBqOXdlajh5aw==",
+    X:"https://x.com/saidaiaikido?s=11",
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
-    number: "101",
-    group: "埼玉大学合気道部",
-    class: "パフォマ",
-    area: null,
-    "area_num": null,
-    room: null,
-    room_num: null,
-    show_place: "サル山",
-    name: "埼玉大学合気道部",
-    detail_class: "パフォーマンス",
-    abst: "合気道の型の演武",
-    explanation: "合気道って何？と思っているあなたに！合気道の魅力が詰まった演武をぜひご覧ください。",
-    logo: "https://drive.google.com/open?id=1V9162ETzBVIb-mVqUUieQ5vbaUpRA7Mi",
-    SNS: "Instagram:\nhttps://www.instagram.com/saidai_aikido?igsh=MWRqdHBqOXdlajh5aw==\nX:\nhttps://x.com/saidaiaikido?s=11"
-  },
-  {
-    number: "130",
+    number: "1301",
     group: "埼玉大学少林寺拳法部",
     class: "パフォマ",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: null,
     room_num: null,
     show_place: "サル山",
@@ -1453,15 +1673,19 @@ const dataset_intro = [
     detail_class: "パフォーマンス",
     abst: "少林寺拳法演武の披露",
     explanation: "突き・蹴り・投げ、迫力のある演武をぜひご覧ください。",
-    logo: "https://drive.google.com/open?id=1StZHw0EOdipss2Eq1U_IxOoOg_YqZsbJ",
-    SNS: " https://twitter.com/saidaishorinji?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor\n\nhttps://www.instagram.com/saidaishorinji?igsh=MXV3bHdjYWZyazlkMg%3D%3D&utm_source=qr"
+    logo: "syorinjikennpobuperform",
+    X: " https://twitter.com/saidaishorinji?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+    Instagram: "https://www.instagram.com/saidaishorinji?igsh=MXV3bHdjYWZyazlkMg%3D%3D&utm_source=qr",
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
-    number: "541",
+    number: "5412",
     group: "埼玉大学Swing Cube Jazz Orchestra",
     class: "パフォマ",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: null,
     room_num: null,
     show_place: "サル山",
@@ -1469,15 +1693,19 @@ const dataset_intro = [
     detail_class: "パフォーマンス",
     abst: "ジャズの演奏",
     explanation: "埼大唯一のビッグバンドサークルです！スタンダードなジャズナンバーやディズニーのジャズを演奏します！",
-    logo: "https://drive.google.com/open?id=1DZrVEv06NIaFe9ew06p_cLmy6Gz7aTuP",
-    SNS: "https://www.instagram.com/scjo_white?igsh=NjVjZjc5MjU5eHM0&utm_source=qr"
+    logo: "swingjazzperform",
+    Instagram: "https://www.instagram.com/scjo_white?igsh=NjVjZjc5MjU5eHM0&utm_source=qr",
+    X: null,
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "546",
     group: "CHOCOLETZ",
     class: "パフォマ",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: null,
     room_num: null,
     show_place: "サル山",
@@ -1485,15 +1713,19 @@ const dataset_intro = [
     detail_class: "パフォーマンス",
     abst: "アカペラライブ",
     explanation: "24日（日）11:00〜12:00 @サル山\n屋外アカペラライブです！\nぜひお立ち寄りください！！",
-    logo: "https://drive.google.com/open?id=1kxljpww_z602NSX8Xq2DzYPuxKy4mfJe",
-    SNS: "@chocoletz_koho（X 旧Twitter）\n@chocoletz.acappella（Instagram）"
+    logo: "chocoletz",
+    X: "https://x.com/chocoletz_koho",
+    Instagram: "https://www.instagram.com/chocoletz.acappella/?hl=ja",
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "571",
     group: "モダンジャズ研究会",
     class: "パフォマ",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: null,
     room_num: null,
     show_place: "サル山",
@@ -1501,15 +1733,19 @@ const dataset_intro = [
     detail_class: "パフォーマンス",
     abst: "ジャズの演奏",
     explanation: "迫力満点のジャズの演奏をお楽しみください！",
-    logo: "https://drive.google.com/open?id=1eSGFDW8O4e6n8m3bOT_bF5oqT82v6y5T",
-    SNS: "X：https://x.com/SUMJS_\nInstagram：https://www.instagram.com/SUMJS_/\nHP：https://sumjs.fc2.page/"
+    logo: "mordernjazzperform",
+    X: "https://x.com/SUMJS_", 
+    Instagram: "https://www.instagram.com/SUMJS_/",
+    HP:"https://sumjs.fc2.page/",
+    youtube: null,
+    link: null
   },
   {
     number: "572",
     group: "桃犬",
     class: "パフォマ",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: null,
     room_num: null,
     show_place: "サル山",
@@ -1517,15 +1753,19 @@ const dataset_intro = [
     detail_class: "パフォーマンス",
     abst: "ミュージカルの上演",
     explanation: "ミュージカルサークル桃犬です。私たちのパフォーマンスでむつめ祭を盛り上げます。ぜひご覧ください！",
-    logo: "https://drive.google.com/open?id=13kSChejVebO5bI4J-nkTuVVvfzJYFqkG",
-    SNS: "X: https://x.com/musicalmomoinu?s=21\nInstagram: https://www.instagram.com/musical_momoinu?igsh=em50c3FlZ2p1eml2"
+    logo: "momoinu",
+    X: "https://x.com/musicalmomoinu?s=21",
+    Instagram: "https://www.instagram.com/musical_momoinu?igsh=em50c3FlZ2p1eml2",
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "577",
     group: "落語研究会",
     class: "パフォマ",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: null,
     room_num: null,
     show_place: "サル山",
@@ -1533,15 +1773,20 @@ const dataset_intro = [
     detail_class: "パフォーマンス",
     abst: "落語の寄席",
     explanation: "個性が爆発してとんでもないことになった落研が見れます！！",
-    logo: "https://drive.google.com/open?id=1k68-PaR26-hZ2dXMpXyeEwss0nzjl9Fi",
-    SNS: "メール:saidaiotiken@gmail.com\nX:@SaidaiOtiken\nInstagram:saidai_ochiken"
+    logo: "rakugo",
+    mail: "saidaiotiken@gmail.com",
+    X: "https://x.com/SaidaiOtiken",
+    Instagram:"https://www.instagram.com/saidai_ochiken/?hl=ja",
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
-    number: "029",
+    number: "29",
     group: "yamii.",
     class: "パフォマ",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: null,
     room_num: null,
     show_place: "サル山",
@@ -1549,15 +1794,19 @@ const dataset_intro = [
     detail_class: "パフォーマンス",
     abst: "ボーカルユニット",
     explanation: "透明感のある2人の歌声で、ちょっと癒されに来ませんか。",
-    logo: "https://drive.google.com/open?id=1ycHi8_gyYIwH17zr7EjVs3OkmPhjEHzb",
-    SNS: "https://youtube.com/@yamiiofficial?si=Aa6al_bv6JioembX"
+    logo: "yamii",
+    youtube: "https://youtube.com/@yamiiofficial?si=Aa6al_bv6JioembX",
+    X: null,
+    Instagram: null,
+    HP: null,
+    link: null
   },
   {
     number: "521",
     group: "管弦楽団",
     class: "パフォマ",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: null,
     room_num: null,
     show_place: "大学会館",
@@ -1565,15 +1814,19 @@ const dataset_intro = [
     detail_class: "パフォーマンス",
     abst: "オーケストラ演奏",
     explanation: "管弦楽団です！学内で唯一のオーケストラ団体です！普段中々聞くことの出来ないクラシック音楽を是非！",
-    logo: "https://drive.google.com/open?id=1BRY3tcKydOqdtc0dj5R4n-izR-HEDUDz",
-    SNS: "https://blinks.fyi/saidaioke"
+    logo: "kanngenngakudann",
+    link: "https://blinks.fyi/saidaioke",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
   },
   {
     number: "539",
     group: "吹奏楽部",
     class: "パフォマ",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: null,
     room_num: null,
     show_place: "大学会館",
@@ -1581,15 +1834,19 @@ const dataset_intro = [
     detail_class: "演奏",
     abst: "吹奏楽の演奏披露",
     explanation: "演奏を披露させていただきます！是非お立ち寄りください！",
-    logo: "https://drive.google.com/open?id=1XiegF2tExvPqODjpODbS49rO9hRE7nIl",
-    SNS: "Instagram\nhttps://www.instagram.com/saidaisui?igsh=dWcxbDhmN3NvNW5h\n\nX\nhttps://x.com/saidaisui?s=21&t=7yz1PicSAi8ErAUH7pIvKg"
+    logo: "suisougakubu",
+    Instagram: "https://www.instagram.com/saidaisui?igsh=dWcxbDhmN3NvNW5h",
+    X: "https://x.com/saidaisui?s=21&t=7yz1PicSAi8ErAUH7pIvKg",
+    youtube: null,
+    HP: null,
+    link: null
   },
   {
     number: "562",
     group: "埼玉大学邦楽部琴吹会",
     class: "パフォマ",
     area: null,
-    "area_num": null,
+    area_num: null,
     room: null,
     room_num: null,
     show_place: "大学会館",
@@ -1597,8 +1854,12 @@ const dataset_intro = [
     detail_class: "パフォーマンス",
     abst: "和楽器による演奏",
     explanation: "箏・三味線・尺八による演奏で和楽器の魅力をお届けします♪和の音色に癒されたい方は是非お越しください！",
-    logo: "https://drive.google.com/open?id=1mVLFXpseJGpMhdqHxhK5EoAJBfa9fziI",
-    SNS: "https://x.com/saidai_hougaku     https://www.instagram.com/kotobuki_hogaku/"
+    logo: "kinnsui",
+    X: "https://x.com/saidai_hougaku",
+    Instagram: "https://www.instagram.com/kotobuki_hogaku/",
+    youtube: null,
+    HP: null,
+    link: null
   }
 ];
 //場所はifで整理しておく
@@ -1608,23 +1869,90 @@ if(dataset_intro[key]["show_place"] !== null){
   place = dataset_intro[key]["show_place"];
 }
 else if(dataset_intro[key]["room"] !== null){
-  place = `${dataset_intro[key]["room"]}${dataset_intro[key]["room_num"]}教室`;
+  if(dataset_intro[key]["room_num"] !== null){
+    place = `${dataset_intro[key]["room"]}${dataset_intro[key]["room_num"]}教室`
+  }
+  else{
+    place = `${dataset_intro[key]["room"]}`
+  }
+}
+else if(dataset_intro[key]["area"]){
+  place = `${dataset_intro[key]["area"]}${dataset_intro[key]["area_num"]}`
 }
 const content_group = `
-<button id="open" class="motalWindow">
+<button id="open${dataset_intro[key]["number"]}" class="motalWindow">
   <div class="group__ttl">
     <div class="group__icon"></div>
     <h3>${dataset_intro[key]["name"]}</h3>
   </div>
   <p>${dataset_intro[key]["group"]}</p>
   <div class="group__info">
-    <img src="" alt="${dataset_intro[key]["group"]}のロゴ">
+    <img src="img/grouplogo/${dataset_intro[key]["logo"]}.png" alt="${dataset_intro[key]["group"]}のロゴ">
     <div class="place___category">
-      <p class="place">${place}</p>
+      <div class="place">
+        <p>${place}</p>
+      </div>
       <div class="category">
+        <div class="marker__green__white kikaku__kind">${dataset_intro[key]["class"]}</div>
       </div>
     </div>
   </div>
-</button>`;
+</button>
+<section id="modal${dataset_intro[key]["number"]}" class="modal__inner">
+  <h3>${dataset_intro[key]["name"]}</h3>
+  <p>${dataset_intro[key]["group"]}</p>
+  <img class "group__logo" src="img/grouplogo/${dataset_intro[key]["logo"]}.png" alt="${dataset_intro[key]["group"]}のロゴ">
+    <div class="place__category__inner">
+      <p class="abst">${dataset_intro[key]["abst"]}</p>
+      <p class="place">${place}</p>
+      <div class="category">
+        <div class="marker__green__white kikaku__kind">${dataset_intro[key]["class"]}</div>
+      </div>
+    </div>
+  <p class="group__explanation">${dataset_intro[key]["explanation"]}</p>
+    <div id="SNS${dataset_intro[key]["number"]}" class="SNS_icon__inner"></div>
+  <button id="close${dataset_intro[key]["number"]}" class="close__modal">閉じる</button>
+</section>
+<div id="mask"></div>`;
 motalWindow.insertAdjacentHTML('beforeend', content_group);
+});
+
+Object.keys(dataset_intro).forEach((key) => {
+  console.log(dataset_intro[key]["Instagram"]);
+  const SNS = document.querySelector("#SNS" + dataset_intro[key]["number"]);
+  if(dataset_intro[key]["X"] !== null){
+    const content_X = `
+    <a href="${dataset_intro[key]["X"]}">
+      <img src="x_logo.svg" alt="xのロゴ">
+    </a>`;
+    SNS.insertAdjacentHTML('beforeend', content_X);
+  }
+  if(dataset_intro[key]["Instagram"] !== null){
+    const content_instageram = `
+    <a href="${dataset_intro[key]["Instagram"]}">
+      <img src="instagram_logo.svg" alt="instagramのロゴ">
+    </a>`;
+    SNS.insertAdjacentHTML('beforeend', content_instageram);
+  }
+  if(dataset_intro[key]["youtube"] !== null){
+    const content_youtube = `
+    <a href="${dataset_intro[key]["youtube"]}">
+        <img src="youtube_logo.svg" alt="youtubeのロゴ">
+    </a>`;
+    SNS.insertAdjacentHTML('beforeend', content_youtube);
+  }
+  if(dataset_intro[key]["HP"] !== null){
+    const content_HP = `
+    <a href="${dataset_intro[key]["HP"]}">
+        <img src="HP_logo.svg" alt="HPのロゴ">
+    </a>`;
+    SNS.insertAdjacentHTML('beforeend', content_HP);
+  }
+  if(dataset_intro[key]["link"] !== null){
+    const content_link = `
+    <a href="${dataset_intro[key]["link"]}">
+        <img src="link_logo.svg" alt="linkのロゴ">
+    </a>`;
+    SNS.insertAdjacentHTML('beforeend', content_link);
+  }
 });
