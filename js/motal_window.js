@@ -1,16 +1,464 @@
 const motalWindow = document.querySelector('#motalWindow');
 
+const dataset_stage = [
+  {
+    number: 1001,
+    group: "オリジナルソング研究会",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "my bloody valentine ",
+    date: "1日目",
+    time: "10:00-10:40",
+    detail_class: "バンド",
+    explanation: "1番デカい音、出します。\nよろしくお願いします。",
+    logo: "mbv"
+   },
+   {
+    number: 1002,
+    group: "LMS&ロック研究会",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "THEE MICHELLE GUN ELEPHANT",
+    date: "1日目",
+    time: "11:30-12:10",
+    detail_class: "バンド",
+    explanation: "ロックンロール",
+    logo: "tmge"
+   },
+   {
+    number: 1003,
+    group: "yamii.",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "yamii.",
+    date: "1日目",
+    time: "12:10-12:50",
+    detail_class: "バンド",
+    explanation: "YouTubeやライブなどで活動している男女ボーカルユニットyamii.です！チャンネル登録してね",
+    logo: "yamii"
+   },
+   {
+    number: 1004,
+    group: "音楽研究会のび 楽器班",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "相対性理論",
+    date: "1日目",
+    time: "15:20~16:00",
+    detail_class: "バンド",
+    explanation: "相対性理論のコピーバンドです。",
+    logo: "soutaisei"
+   },
+   {
+    number: 1005,
+    group: "音研のび楽器班",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "椎名林檎",
+    date: "1日目",
+    time: "16:00~16:40",
+    detail_class: "バンド",
+    explanation: "椎名林檎のコピーバンドです。よろしくお願いします。",
+    logo: "rinngo"
+   },
+   {
+    number: 1006,
+    group: "音楽研究会",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "ハヌマーン",
+    date: "1日目",
+    time: "16:40~17:20",
+    detail_class: "バンド",
+    explanation: "出所おめでとう！",
+    logo: "hamanoon"
+   },
+   {
+    number: 1007,
+    group: "LMS&ロック研究会",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "XJAPAN",
+    date: "1日目",
+    time: "17:20~18:00",
+    detail_class: "バンド",
+    explanation: "紅だぁぁぁぁぁぁぁぁ",
+    logo: "xjapan"
+   },
+   {
+    number: 1008,
+    group: "B.F.G.A.",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "Vaundy",
+    date: "1日目",
+    time: "18:00~18:40",
+    detail_class: "バンド",
+    explanation: "初日トリ踊って騒いで盛り上がってください！何卒何卒。",
+    logo: "vaundy"
+   },
+   {
+    number: 1009,
+    group: "AKUTO",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "SUPER BEAVER",
+    date: "2日目",
+    time: "12:40〜13:20",
+    detail_class: "バンド",
+    explanation: "SUPER BEAVERのコピーバンドです",
+    logo: "superbeaver"
+   },
+   {
+    number: 1010,
+    group: "B.F.G.A.",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "THE ORAL CIGARETTES",
+    date: "2日目",
+    time: "10:00~10:40",
+    detail_class: "バンド",
+    explanation: "むつめ祭、今年も\"BKW\"します👁️‍🗨️",
+    logo: "toc"
+   },
+   {
+    number: 1011,
+    group: "音研のび",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "ヒトリエ",
+    date: "2日目",
+    time: "12:00~12:40",
+    detail_class: "バンド",
+    explanation: "日本のロックバンド｢ヒトリエ｣のコピーバンドです",
+    logo: "hitorie"
+   },
+   {
+    number: 1012,
+    group: "オリジナルソング研究会",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "Betcover!!",
+    date: "2日目",
+    time: "16:40-17:20",
+    detail_class: "バンド",
+    explanation: "Betcover!!のコピーバンドです。",
+    logo: "betcover"
+   },
+   {
+    number: 1013,
+    group: "AKUTO",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "THE BACK HORN",
+    date: "2日目",
+    time: "16:00〜16:40",
+    detail_class: "バンド",
+    explanation: "THE BACK HORN のコピーバンドです！",
+    logo: "tbh"
+   },
+   {
+    number: 1014,
+    group: "BFGA",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "Ado",
+    date: "2日目",
+    time: "17:20-18:00",
+    detail_class: "バンド",
+    explanation: "BFGAからAdoのコピーバンドです！迫力あるバンドサウンドでお届けします。お待ちしております。",
+    logo: "ado"
+   },
+   {
+    number: 1015,
+    group: "モダンジャズ研究会",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "モダンジャズ研究会",
+    date: "2日目",
+    time: "10:40〜11:20",
+    detail_class: "バンド",
+    explanation: "ルパン三世より「ルパン三世のテーマ」や「炎のたからもの」等をオリジナルアレンジでお送りします",
+    logo: "roupan"
+   },
+   {
+    number: 1016,
+    group: "B.F.G.A",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "ずっと真夜中でいいのに。",
+    date: "2日目",
+    time: "11:20-12:00",
+    detail_class: "バンド",
+    explanation: "ずっと真夜中でいいのに。のコピーバンドです！大きなステージで演奏するのは皆初めてですが、頑張ります！",
+    logo: "zutomayo"
+   },
+   {
+    number: 1017,
+    group: "B.F.G.A.",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "東京事変",
+    date: "2日目",
+    time: "13:20~14:00",
+    detail_class: "バンド",
+    explanation: "宜しくお願いします。",
+    logo: "jihen"
+   },
+   {
+    number: 1018,
+    group: "AKUTO",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "放課後ティータイム",
+    date: "2日目",
+    time: "15:20~16:00",
+    detail_class: "バンド",
+    explanation: "アニメ「けいおん!!」内の放課後ティータイムというバンドのコピーバンドです。よろしくお願いします。",
+    logo: "houkago"
+   },
+   {
+    number: 1019,
+    group: "BFGA",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "LUNASEA",
+    date: "2日目",
+    time: "18:00-18:40",
+    detail_class: "バンド",
+    explanation: "一世を風靡した伝説のバンドを限界まで再現しました！",
+    logo: "lunasea"
+   },
+   {
+    number: 1020,
+    group: "B.F.G.A.",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "BOΦWY ",
+    date: "2日目",
+    time: "14:00～14:40",
+    detail_class: "バンド",
+    explanation: "BOØWYは1980年代に登場し、日本の音楽シーンを大きく変革した伝説的なロックバンドです。",
+    logo: "bowy"
+   },
+   {
+    number: 1021,
+    group: "音研のび",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "くるり",
+    date: "3日目",
+    time: "16:00〜16:40",
+    detail_class: "バンド",
+    explanation: "くるり最高！！",
+    logo: "kururi"
+   },
+   {
+    number: 1022,
+    group: "オリジナルソング研究会",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "RIDE",
+    date: "3日目",
+    time: "16:40〜17:20",
+    detail_class: "バンド",
+    explanation: "轟音を出したいです。",
+    logo: "ride"
+   },
+   {
+    number: 1023,
+    group: "LMS&ロック研究会",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "Red Hot Chili Peppers",
+    date: "3日目",
+    time: "15:20-16:00",
+    detail_class: "バンド",
+    explanation: "LMS&ロック研究会から Red Hot Chili Peppersのコピーバンドをやります",
+    logo: "rhcp"
+   },
+   {
+    number: 1024,
+    group: "LMS&ロック研究会",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "9mm Parabellum Bullet",
+    date: "3日目",
+    time: "12:40-13:20",
+    detail_class: "バンド",
+    explanation: "9999999999999999999mmのコピーをやります99999999999999999999",
+    logo: "9mpb"
+   },
+   {
+    number: 1025,
+    group: "音楽研究会のび楽器班",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "never young beach",
+    date: "3日目",
+    time: "12:00~12:40",
+    detail_class: "バンド",
+    explanation: "ネバヤンの良さを出しつつ、4人ならではのオリジナルな編曲で楽しめるような演奏をします！",
+    logo: "nyb"
+   },
+   {
+    number: 1026,
+    group: "オリジナルソング研究会",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "きのこ帝国",
+    date: "3日目",
+    time: "17:20-18:00",
+    detail_class: "バンド",
+    explanation: "きのこ帝国のコピーバンドです。メンバー全員が情熱を込めてパフォーマンスします！？",
+    logo: "kinoko"
+   },
+   {
+    number: 1027,
+    group: "音楽研究会のび 楽器班",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "カネコアヤノ",
+    date: "3日目",
+    time: "13:20~14:00",
+    detail_class: "バンド",
+    explanation: "音楽研究会のび楽器班の3年生で構成される、カネコアヤノのコピーバンドです！(^-^♪",
+    logo: "kaneko"
+   },
+   {
+    number: 1028,
+    group: "オリジナルソング研究会",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "arctic monkeys",
+    date: "3日目",
+    time: "10:00〜10:40",
+    detail_class: "バンド",
+    explanation: "ロック魂を朝から炸裂！アークティック・モンキーズでテンションブチ上げ！",
+    logo: "armo"
+   },
+   {
+    number: 1029,
+    group: "LMS&ロック研究会",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "NUMBER GIRL",
+    date: "3日目",
+    time: "18:00-18:40",
+    detail_class: "バンド",
+    explanation: "埼大ROCKTRANSFORMED状態",
+    logo: "numbergirl"
+   },
+   {
+    number: 1030,
+    group: "B.F.G.A.",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "King Gnu",
+    date: "3日目",
+    time: "11:20〜12:00",
+    detail_class: "バンド",
+    explanation: "B.F.G.A.からKing Gnuです。耳かっぽじって聞いてください",
+    logo: "kinggnu"
+   },
+   {
+    number: 1031,
+    group: "B.F.G.A.",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "RADWIMPS",
+    date: "3日目",
+    time: "14:40~15:20",
+    detail_class: "バンド",
+    explanation: "RADWIMPSのコピーをします！盛り上がること間違いなし！あのフィーチャリング曲もやります！",
+    logo: "rad"
+   },
+   {
+    number: 1032,
+    group: "音研のび楽器班",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "サニーデイ・サービス",
+    date: "3日目",
+    time: "10:40~11:20",
+    detail_class: "バンド",
+    explanation: "そっちはどうだいうまくやってるかい\nこっちはこうさどうにもならんよ\n今んとこはまあそんな感じなんだ",
+    logo: "sunny"
+   },
+   {
+    number: 1033,
+    group: "音研のび楽器班",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "ゆらゆら帝国",
+    date: "2日目",
+    time: "14:40 〜 15:20",
+    detail_class: "バンド",
+    explanation: "グレープフルーツちょうだい",
+    logo: "yurayura"
+   },
+   {
+    number: 1034,
+    group: "SCJO White",
+    class: "ステージ",
+    show_place: "メインステージ",
+    name: "埼玉スカパラダイスオーケストラ",
+    date: "3日目",
+    time: "14:00〜14:40",
+    detail_class: "バンド",
+    explanation: "東京スカパラダイスオーケストラのコピーをやらせていただきます よろしくお願いします",
+    logo: "scapara"
+   }
+];
+Object.keys(dataset_stage).forEach((key) => {
+  const content_stage = `
+<button id="open${dataset_stage[key]["number"]}" class="motalWindow">
+  <div class="group__ttl">
+    <div class="group__icon"></div>
+    <h3>${dataset_stage[key]["name"]}</h3>
+  </div>
+  <p>${dataset_stage[key]["group"]}</p>
+  <div class="group__info">
+    <img src="img/grouplogo/${dataset_stage[key]["logo"]}.png" alt="${dataset_stage[key]["name"]}のロゴ">
+    <div class="place___category">
+      <div class="place">
+        <p>${dataset_stage[key]["show_place"]}</p>
+      </div>
+      <div class="category">
+        <div class="marker__green__white kikaku__kind">${dataset_stage[key]["class"]}</div>
+      </div>
+    </div>
+  </div>
+</button>
+<section id="modal${dataset_stage[key]["number"]}" class="modal__inner">
+  <h3>${dataset_stage[key]["name"]}</h3>
+  <p>${dataset_stage[key]["group"]}</p>
+  <img class="group__logo" src="img/grouplogo/${dataset_stage[key]["logo"]}.png" alt="${dataset_stage[key]["group"]}のロゴ">
+    <div class="place__category__inner">
+      <p class="place">${dataset_stage[key]["show_place"]}</p>
+      <div class="category">
+        <div class="marker__green__white kikaku__kind">${dataset_stage[key]["class"]}</div>
+      </div>
+    </div>
+  <p class="group__explanation">${dataset_stage[key]["explanation"]}</p>
+    <div id="SNS${dataset_stage[key]["number"]}" class="SNS_icon__inner"></div>
+  <button id="close${dataset_stage[key]["number"]}" class="close__modal">閉じる</button>
+</section>
+<div id="mask"></div>`;
+  motalWindow.insertAdjacentHTML('beforeend', content_stage);
+});
 const dataset_intro = [
   {
     number: "540",
     group: "推理小説研究会",
     class: "屋内",
+    area: null,
     area_num: null,
     room: "教育学部A棟",
     room_num: 111,
     show_place: null,
     name: "推理小説研究会",
-    detail_class: "物販, 展示",
+    detail_class: "販売",
     abst: "会員オリジナルの劇の上映、会誌の販売",
     explanation: "会誌の販売のほか、観客参加型の犯人当て推理劇を上映予定です。こちらは入場無料となっております。",
     logo: "suirikennkyuukai",
@@ -19,7 +467,7 @@ const dataset_intro = [
     youtube: null,
     HP: null,
     link: null
-  },  
+  },
   {
     number: "529",
     group: "SaidaiPokemonLaboratory",
@@ -34,7 +482,7 @@ const dataset_intro = [
     abst: "Switchによるポケモン対戦・ポケモンカード体験・塗り絵・クイズ",
     explanation: "世代を超えて遊べるポケットモンスターを一緒に楽しもう！",
     logo: "pokemon",
-    X: "https://x.com/SaidaiPokemon2?t=TCQwoKLR26asFsWMP1g3Xg&s=09",
+    X: "https://x.com/SaidaiPokemon2",
     Instagram: null,
     youtube: null,
     HP: null,
@@ -54,7 +502,7 @@ const dataset_intro = [
     abst: "書道体験、書道の作品展示。",
     explanation: "書道の作品展示と書道体験を行っています！お子様から大人の方まで、誰でも気軽にお越しください！",
     logo: "shodo",
-    Instagram: "https://www.instagram.com/saidaishodobu?igsh=NGd0cXZtZ2t1ZW1x&utm_source=qr",
+    Instagram: "https://www.instagram.com/saidaishodobu/?hl=ja",
     X: null,
     youtube: null,
     HP: null,
@@ -254,7 +702,7 @@ const dataset_intro = [
     abst: "創作物(小説・イラスト)の冊子等販売・展示",
     explanation: "小説・イラスト・漫画、その他たくさんのグッズ販売中です！好きな作品を語り合おう！",
     logo: "lightfiction",
-    X: "https://x.com/lfc_information?t=K6FLBl9C-kfX2IY0WVdvmA&s=09",
+    X: "https://x.com/lfc_information",
     Instagram: null,
     youtube: null,
     HP: null,
@@ -435,7 +883,7 @@ const dataset_intro = [
     explanation: "声だけで演奏する…妙だな… \nペロｯ \n！？ こ、これは、アカペラライブ‼︎‼︎",
     logo: "chocoletz",
     X: "https://x.com/chocoletz_koho",
-    Instagram:"https://www.instagram.com/chocoletz.acappella/?hl=ja",
+    Instagram: "https://www.instagram.com/chocoletz.acappella/?hl=ja",
     youtube: null,
     HP: null,
     link: null
@@ -454,8 +902,8 @@ const dataset_intro = [
     abst: "自主制作映画の上映",
     explanation: "当サークルで制作した短編映画を上映します。全米が泣いた。",
     logo: "MaVie",
-    X:"https://x.com/mavie_saidai",
-    Instagram:"https://www.instagram.com/mavie_saidai",
+    X: "https://x.com/mavie_saidai",
+    Instagram: "https://www.instagram.com/mavie_saidai",
     youtube: null,
     HP: null,
     link: null
@@ -474,9 +922,9 @@ const dataset_intro = [
     abst: "落語の寄席",
     explanation: "落語なんて馬鹿馬鹿しい話だと思われがちですが、真剣に聞いてみると案外、、、馬鹿馬鹿しい話です！！",
     logo: "rakugo",
-    Mail:"saidaiotiken@gmail.com",
-    X:"https://x.com/SaidaiOtiken",
-    Instagram:"https://www.instagram/saidai_ochiken",
+    Mail: "saidaiotiken@gmail.com",
+    X: "https://x.com/SaidaiOtiken",
+    Instagram: "https://www.instagram.com/saidai_ochiken/?hl=ja",
     youtube: null,
     HP: null,
     link: null
@@ -515,7 +963,7 @@ const dataset_intro = [
     abst: "メイド喫茶(飲食販売)",
     explanation: "可愛いメイドさんやかっこいい執事さんたちがご主人様のお帰りを心よりお待ちしております♪",
     logo: "maid",
-    X: "https://x.com/saidaimaid?s=21&t=CdgJGGI8H8Zd000x_Mg15g",
+    X: "https://x.com/saidaimaid",
     Instagram: null,
     youtube: null,
     HP: null,
@@ -537,7 +985,7 @@ const dataset_intro = [
     logo: "gassyodan",
     HP: "https://saitamaunivchoir.wixsite.com/saitamaunivchrous",
     X: "https://x.com/st_univ_choir",
-    Instagram:"https://x.com/st_univ_choir",
+    Instagram: "https://x.com/st_univ_choir",
     youtube: null,
     link: null
   },
@@ -548,7 +996,7 @@ const dataset_intro = [
     area: null,
     area_num: null,
     room: "全学講義棟1号館",
-    room_num: null,
+    room_num: 402,
     show_place: null,
     name: "埼玉大学鐵道研究会",
     detail_class: "展示",
@@ -635,8 +1083,8 @@ const dataset_intro = [
     abst: "バンド演奏",
     explanation: "軽音楽サークルB.F.G.A.です！あなたの好きなバンドコピーが出るかも…⁉",
     logo: "BFGA",
-    X:"https://x.com/BFGA_",
-    Instagram:"https://www.instagram.com/b.f.g.a_/?igsh",
+    X: "https://x.com/BFGA_",
+    Instagram: "https://www.instagram.com/b.f.g.a_/?igsh",
     youtube: null,
     HP: null,
     link: null
@@ -816,7 +1264,7 @@ const dataset_intro = [
     explanation: "学内でのSproutsのパフォーマンスは初めてです！皆さんに笑顔と元気を届けられるように頑張ります！",
     logo: "sprouts",
     X: "https://x.com/cheer_dance_su?s=21&t=kDjhtgEDoCypswt-qQCqZw",
-    Instagram:"https://www.instagram.com/sprouts_saitama?igsh=YmV2Yzc2MmppMG03&utm_source=qr",
+    Instagram: "https://www.instagram.com/sprouts_saitama?igsh=YmV2Yzc2MmppMG03&utm_source=qr",
     youtube: null,
     HP: null,
     link: null
@@ -855,7 +1303,7 @@ const dataset_intro = [
     abst: "ダンスパフォーマンス",
     explanation: "約190人のサークル員で最高なダンスをお見せします！アフタビのアットホームな雰囲気をお楽しみに！！",
     logo: "afterbeat",
-    Instagram: "https://www.instagram.com/afterbeatclub?igsh=MTkxeDIzcGIzZnNubw==",
+    Instagram: "https://www.instagram.com/afterbeatclub/?hl=ja",
     X: null,
     youtube: null,
     HP: null,
@@ -956,7 +1404,7 @@ const dataset_intro = [
     abst: "チョコバナナ",
     explanation: "F.C.parfaitがチョコバナナを売ります！ぜひ食べにきてね！",
     logo: "fcparfait",
-    Instagram: "https://www.instagram.com/su_fc.parfait?igsh=MTd0ZGFkaHFpZXQ0",
+    Instagram: "https://www.instagram.com/su_fc.parfait/?hl=ja",
     X: null,
     youtube: null,
     HP: null,
@@ -974,9 +1422,9 @@ const dataset_intro = [
     name: "餃子のOM",
     detail_class: "飲食",
     abst: "餃子の販売",
-    explanation: "OMは手づくり餃子を販売します！\n頑張っておいしく作るのでぜひ来てください♡",
+    explanation: "今年のOMは餃子を販売します！ぜひ食べに来てください♡",
     logo: "ordermade",
-    Instagram: "https://www.instagram.com/om_saidai?igsh=MXV6ZzZlMGprNTJiZA==",
+    Instagram: "https://www.instagram.com/om_saidai/?hl=ja",
     X: null,
     youtube: null,
     HP: null,
@@ -1016,8 +1464,8 @@ const dataset_intro = [
     abst: "クラムチャウダーの販売",
     explanation: "むつめ祭愛好家の私たちによるあったか～いクラムチャウダーはいかがですか？心も体も温まるひとときをどうぞ！",
     logo: "niichi",
-    X:"https://twitter.com/we_love_mutsme",
-    Instagram: "https://www.instagram.com/niiichi_we_love_mutume?igsh=MTVrZW9jYWVuaXhtaA%3D%3D&utm_source=qr",
+    X: "https://twitter.com/we_love_mutsme",
+    Instagram: "https://www.instagram.com/niiichi_we_love_mutume/?hl=ja",
     youtube: null,
     HP: null,
     link: null
@@ -1118,7 +1566,7 @@ const dataset_intro = [
     explanation: "アヒージョですおいしいよ",
     logo: "bopbop",
     X: "https://x.com/bopbop_29?s=21",
-    Instagram: "https://www.instagram.com/bopbop_su?igsh=MTRybGlhZzJkOXMyeA==",
+    Instagram: "https://www.instagram.com/bopbop_su/?hl=ja",
     youtube: null,
     HP: null,
     link: null
@@ -1137,8 +1585,8 @@ const dataset_intro = [
     abst: "油そば｢ガッチャメン｣の販売",
     explanation: "あの超有名ラーメン屋店主が学生時代に作った｢油そば｣を完全再現！この味は梵友会でしか味わえない！！",
     logo: "haiyuukai",
-    Instagram:"https://www.instagram.com/haiyu_kai1214?igsh=NXE5YnJlY3Y3bGJx",
-    X: "https://x.com/haiyukai1214_?t=9ngxhlbOOlYd2ZMZhqHs5g&s=09",
+    Instagram: "https://www.instagram.com/haiyu_kai1214/?hl=ja",
+    X: "https://x.com/haiyukai1214_",
     youtube: null,
     HP: null,
     link: null
@@ -1161,7 +1609,7 @@ const dataset_intro = [
     X: null,
     Instagram: null,
     youtube: null,
-    HP: null,
+    HP: null
   },
   {
     number: "2",
@@ -1177,9 +1625,8 @@ const dataset_intro = [
     abst: "沖縄そば",
     explanation: "はいさいー、沖縄出身が集まり、沖縄そばを販売してます。沖縄を感じたい方は是非是非お越しくださいー！！",
     logo: "okinawakennjinnkai",
-    Instagram: "https://www.instagram.com/saitama.uni__okinawa?igsh=NTgxaTRtbTV5c2Ji&utm_source=qr",
+    Instagram: "https://www.instagram.com/saitama.uni__okinawa/?hl=ja",
     X: null,
-    Instagram: null,
     youtube: null,
     HP: null,
     link: null
@@ -1278,7 +1725,7 @@ const dataset_intro = [
     abst: "あげパンの販売",
     explanation: "昔懐かしのあげパン！目の前でお作りした熱々を提供いたします！安いよ！",
     logo: "Jogging",
-    Instagram: "https://www.instagram.com/jogging_saitamauniv?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    Instagram: "https://www.instagram.com/jogging_saitamauniv/?hl=ja",
     X: null,
     youtube: null,
     HP: null,
@@ -1338,7 +1785,7 @@ const dataset_intro = [
     abst: "じゃがバターの販売",
     explanation: "写真展と併せて、じゃがバター屋さんを出します！アツアツをご用意してお待ちしております！",
     logo: "syashinbu",
-    X: "https://x.com/SaidaiPhoto?t=-qBChrHy7OAoPNgXaHjWhQ&s=09",
+    X: "https://x.com/SaidaiPhoto",
     Instagram: null,
     youtube: null,
     HP: null,
@@ -1378,7 +1825,7 @@ const dataset_intro = [
     abst: "唐揚げとフライドポテトの販売",
     explanation: "男子ソフトボール部です！ポテトと唐揚げを販売しています！美味しいのでぜひお越しください！",
     logo: "msoftball",
-    Instagram: "https://www.instagram.com/softball_saidai?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    Instagram: "https://www.instagram.com/softball_saidai/?hl=ja",
     X: null,
     youtube: null,
     HP: null,
@@ -1458,8 +1905,8 @@ const dataset_intro = [
     abst: "ベビーカステラの販売",
     explanation: "バドミントン部がベビーカステラを販売します！甘いもの欲してる方ぜひいかがですか？",
     logo: "badminton",
-    X:"https://x.com/saidaibad?s=21&t=upORMqbyttOt_8MsAj0LyA",
-    Instagram:"https://www.instagram.com/saidai_bad?igsh=MXR3czcyNDNsam50&utm_source=qr",
+    X: "https://x.com/saidaibad?s=21&t=upORMqbyttOt_8MsAj0LyA",
+    Instagram: "https://www.instagram.com/saidai_bad/?hl=ja",
     youtube: null,
     HP: null,
     link: null
@@ -1498,8 +1945,8 @@ const dataset_intro = [
     abst: "揚げアイスの販売",
     explanation: "外はアツアツ、中はひんやり新感覚！普通のアイスに飽きた方、ぜひご賞味ください♪♪",
     logo: "aikido",
-    Instagram:"https://www.instagram.com/saidai_aikido?igsh=MWRqdHBqOXdlajh5aw==",
-    X:"https://x.com/saidaiaikido?s=11",
+    Instagram: "https://www.instagram.com/saidai_aikido/?hl=ja",
+    X: "https://x.com/saidaiaikido?s=11",
     youtube: null,
     HP: null,
     link: null
@@ -1522,7 +1969,7 @@ const dataset_intro = [
     X: "https://twitter.com/Formula_FPSU",
     Instagram: "https://www.instagram.com/formula_fpsu/",
     youtube: null,
-    HP: null,
+    HP: null
   },
   {
     number: "130",
@@ -1539,7 +1986,7 @@ const dataset_intro = [
     explanation: "『広島県公認屋台』伝統の焼きそばにオムレツを添えてどうぞ",
     logo: "shorinjikennpobu",
     X: "https://twitter.com/saidaishorinji?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-    Instagram: "https://www.instagram.com/saidaishorinji?igsh=MXV3bHdjYWZyazlkMg%3D%3D&utm_source=qr",
+    Instagram: "https://www.instagram.com/saidaishorinji/?hl=ja",
     youtube: null,
     HP: null,
     link: null
@@ -1582,7 +2029,7 @@ const dataset_intro = [
     Instagram: null,
     youtube: null,
     HP: null,
-    link: null,
+    link: null
   },
   {
     number: "14",
@@ -1658,8 +2105,8 @@ const dataset_intro = [
     abst: "合気道の型の演武",
     explanation: "合気道って何？と思っているあなたに！合気道の魅力が詰まった演武をぜひご覧ください。",
     logo: "aikidoperform",
-    Instagram:"https://www.instagram.com/saidai_aikido?igsh=MWRqdHBqOXdlajh5aw==",
-    X:"https://x.com/saidaiaikido?s=11",
+    Instagram: "https://www.instagram.com/saidai_aikido/?hl=ja",
+    X: "https://x.com/saidaiaikido?s=11",
     youtube: null,
     HP: null,
     link: null
@@ -1679,7 +2126,7 @@ const dataset_intro = [
     explanation: "突き・蹴り・投げ、迫力のある演武をぜひご覧ください。",
     logo: "syorinjikennpobuperform",
     X: " https://twitter.com/saidaishorinji?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-    Instagram: "https://www.instagram.com/saidaishorinji?igsh=MXV3bHdjYWZyazlkMg%3D%3D&utm_source=qr",
+    Instagram: "https://www.instagram.com/saidaishorinji/?hl=ja",
     youtube: null,
     HP: null,
     link: null
@@ -1738,9 +2185,9 @@ const dataset_intro = [
     abst: "ジャズの演奏",
     explanation: "迫力満点のジャズの演奏をお楽しみください！",
     logo: "mordernjazzperform",
-    X: "https://x.com/SUMJS_", 
+    X: "https://x.com/SUMJS_",
     Instagram: "https://www.instagram.com/SUMJS_/",
-    HP:"https://sumjs.fc2.page/",
+    HP: "https://sumjs.fc2.page/",
     youtube: null,
     link: null
   },
@@ -1778,9 +2225,9 @@ const dataset_intro = [
     abst: "落語の寄席",
     explanation: "個性が爆発してとんでもないことになった落研が見れます！！",
     logo: "rakugo",
-    mail: "saidaiotiken@gmail.com",
+    Mail: "saidaiotiken@gmail.com",
     X: "https://x.com/SaidaiOtiken",
-    Instagram:"https://www.instagram.com/saidai_ochiken/?hl=ja",
+    Instagram: "https://www.instagram.com/saidai_ochiken/?hl=ja",
     youtube: null,
     HP: null,
     link: null
@@ -1823,7 +2270,7 @@ const dataset_intro = [
     X: null,
     Instagram: null,
     youtube: null,
-    HP: null,
+    HP: null
   },
   {
     number: "539",
@@ -1839,7 +2286,7 @@ const dataset_intro = [
     abst: "吹奏楽の演奏披露",
     explanation: "演奏を披露させていただきます！是非お立ち寄りください！",
     logo: "suisougakubu",
-    Instagram: "https://www.instagram.com/saidaisui?igsh=dWcxbDhmN3NvNW5h",
+    Instagram: "https://www.instagram.com/saidaisui/?hl=ja",
     X: "https://x.com/saidaisui?s=21&t=7yz1PicSAi8ErAUH7pIvKg",
     youtube: null,
     HP: null,
@@ -1883,7 +2330,7 @@ const dataset_intro = [
     Instagram: null,
     youtube: null,
     HP: null,
-    link: null 
+    link: null
   },
   {
     number: "516",
@@ -1944,46 +2391,386 @@ const dataset_intro = [
     youtube: null,
     HP: null,
     link: null
-  }
-  // {
-  //   number: "516",
-  //   group: "音楽研究会のび 民踊御囃子班",
-  //   class: "屋内",
-  //   area: null,
-  //   area_num: null,
-  //   room: 教養学部棟,
-  //   room_num: 23,
-  //   show_place: null,
-  //   name: "音楽研究会のび民踊御囃子班",
-  //   detail_class: "パフォーマンス",
-  //   abst: "太鼓演目・民踊の披露",
-  //   explanation: "太鼓や民踊を披露します。秋ではありますが、ぜひお祭り気分を味わってみてはいかがでしょうか.",
-  //   logo: "nobimingei",
-  //   X: null,
-  //   Instagram: null,
-  //   youtube: null,
-  //   HP: null,
-  //   link: null
-  // }
+  },
+  {
+    number: "564",
+    group: "エレクトーンサークルAffects×ピアノサークル・poco a poco",
+    class: "屋内",
+    area: null,
+    area_num: null,
+    room: "全学講義棟1号館",
+    room_num: 207,
+    show_place: null,
+    name: "鍵盤café・pocAffe(ポカフェ)",
+    detail_class: "パフォーマンス",
+    abst: "",
+    explanation: "今年はエレクトーンとピアノが夢のコラボ♪鍵盤楽器の生演奏とお菓子・飲み物を楽しんでいきませんか？",
+    logo: "pocoapoco",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
+  },
+  {
+    number: "501",
+    group: "バンドサークルAKUTO",
+    class: "屋内",
+    area: null,
+    area_num: null,
+    room: "全学講義棟2号館",
+    room_num: 501,
+    show_place: null,
+    name: "AKUTO",
+    detail_class: "パフォーマンス",
+    abst: "",
+    explanation: "バンドサークルAKUTOです！アニソン・ボカロを中心にライブをしています。ぜひ気軽にお越しください！",
+    logo: "akuto",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
+  },
+  {
+    number: "511",
+    group: "埼玉大学エレクトーンサークルAffects",
+    class: "パフォマ",
+    area: null,
+    area_num: null,
+    room: null,
+    room_num: null,
+    show_place: "サル山",
+    name: "Affectsライブ@サル山",
+    detail_class: "パフォーマンス",
+    abst: "エレクトーン演奏",
+    explanation: "3つの鍵盤を使ってJ-POPやディズニーなど幅広いジャンルの音楽を演奏します！ぜひお越しください！",
+    logo: "affects",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
+  },
+  {
+    number: "28",
+    group: "埼玉大学藝術学部",
+    class: "屋内",
+    area: null,
+    area_num: null,
+    room: "全学講義棟1号館",
+    room_num: 304,
+    show_place: null,
+    name: "藝術学部",
+    detail_class: "展示",
+    abst: "作品展示、物販",
+    explanation: "「藝術学部」は美術専修の団体で、むつめ祭では全学講義棟2-302で展示及び物販を行います。",
+    logo: "geijyutsu",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
+  },
+  {
+    number: "550",
+    group: "埼玉大学天文同好会",
+    class: "屋外",
+    area: "A地区",
+    area_num: 5,
+    room: null,
+    room_num: null,
+    show_place: null,
+    name: "オリオン座の下でビーフシチュー",
+    detail_class: "飲食",
+    abst: "ビーフシチューの販売",
+    explanation: "オリオン座の見える肌寒い日の夜に温かいビーフシチューはいかがですか？3つ星レストラン監修です。もちろん冗談ですよ、冗談抜きで。",
+    logo: "tennmonn",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
+  },
+  {
+    number: "602",
+    group: "ウイグルケバブ",
+    class: "屋外",
+    area: "D地区",
+    area_num: 6,
+    room: null,
+    room_num: null,
+    show_place: null,
+    name: "ウイグルケバブ",
+    detail_class: "飲食",
+    abst: "ケバブの販売",
+    explanation: "本場の本格の味と栄養たっぷりのケバブです。肉と野菜、ソースがバランスよく合わせたベスト食感の料理。",
+    logo: "kevav",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
+  },
+  {
+    number: "16",
+    group: "Bangladesh Community",
+    class: "屋外",
+    area: "B地区",
+    area_num: 4,
+    room: null,
+    room_num: null,
+    show_place: null,
+    name: "Bangladesh Community",
+    detail_class: "飲食",
+    abst: "伝統料理の販売",
+    explanation: "Delicious Chicken Curry with Jafran Rice, crispy singara, and fresh tea – Taste the Tradition!",
+    logo: "bangladesh",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
+  },
+  {
+    number: "13",
+    group: "Pakistan Community stall",
+    class: "屋外",
+    area: "B地区",
+    area_num: 3,
+    room: null,
+    room_num: null,
+    show_place: null,
+    name: "Pakistan Community stall",
+    detail_class: "飲食",
+    abst: "Pakistan Biryani の販売",
+    explanation: "Welcome to our Biryani Stall! We are a passionate team of five dedicated to bringing you the most delicious and authentic biryani. Our team is divided into specialized roles to ensure the best service: Inside the Stall: Two of our members are master chefs, preparing fresh and flavorful biryani right before your eyes. Advertising: Two enthusiastic members are out and about, spreading the word and attracting customers with their engaging promotions. Cashier: One member is dedicated to handling transactions, ensuring a smooth and efficient payment process. Come and experience the rich taste of our biryani, made with love and the finest ingredients!",
+    logo: "pakistan",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
+  },
+  {
+    number: "22",
+    group: "Sri Lanka",
+    class: "屋外",
+    area: "B地区",
+    area_num: 8,
+    room: null,
+    room_num: null,
+    show_place: null,
+    name: "Sri Lankan Kottu Yatai (スリランカの コットゥ屋台)",
+    detail_class: "飲食",
+    abst: "Flavors of Sri Lanka: A Spice Journey",
+    explanation: "Island Spices, Unforgettable Bites 島のスパイス、忘れられない一口",
+    logo: "srilanka",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
+  },
+  {
+    number: "31",
+    group: "TinyTheater",
+    class: "パフォマ",
+    area: null,
+    area_num: null,
+    room: null,
+    room_num: null,
+    show_place: "サル山",
+    name: "Park Ballet〜公園で公演〜",
+    detail_class: "パフォーマンス",
+    abst: "切り抜きバレエコンサート",
+    explanation: "埼大初上陸！「見るものを限定しない公演を」と掲げ古典バレエの切抜き版を披露。発足:武蔵野美術大学有志学生",
+    logo: "tinytheater",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
+  },//ここから本部企画
+  {
+    number: "31",
+    group: "TinyTheater",
+    class: "パフォマ",
+    area: null,
+    area_num: null,
+    room: null,
+    room_num: null,
+    show_place: "サル山",
+    name: "Park Ballet〜公園で公演〜",
+    detail_class: "パフォーマンス",
+    abst: "切り抜きバレエコンサート",
+    explanation: "埼大初上陸！「見るものを限定しない公演を」と掲げ古典バレエの切抜き版を披露。発足:武蔵野美術大学有志学生",
+    logo: "tinytheater",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
+  },
+  {
+    number: "31",
+    group: "TinyTheater",
+    class: "パフォマ",
+    area: null,
+    area_num: null,
+    room: null,
+    room_num: null,
+    show_place: "サル山",
+    name: "Park Ballet〜公園で公演〜",
+    detail_class: "パフォーマンス",
+    abst: "切り抜きバレエコンサート",
+    explanation: "埼大初上陸！「見るものを限定しない公演を」と掲げ古典バレエの切抜き版を披露。発足:武蔵野美術大学有志学生",
+    logo: "tinytheater",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
+  },
+  {
+    number: "31",
+    group: "TinyTheater",
+    class: "パフォマ",
+    area: null,
+    area_num: null,
+    room: null,
+    room_num: null,
+    show_place: "サル山",
+    name: "Park Ballet〜公園で公演〜",
+    detail_class: "パフォーマンス",
+    abst: "切り抜きバレエコンサート",
+    explanation: "埼大初上陸！「見るものを限定しない公演を」と掲げ古典バレエの切抜き版を披露。発足:武蔵野美術大学有志学生",
+    logo: "tinytheater",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
+  },
+  {
+    number: "31",
+    group: "TinyTheater",
+    class: "パフォマ",
+    area: null,
+    area_num: null,
+    room: null,
+    room_num: null,
+    show_place: "サル山",
+    name: "Park Ballet〜公園で公演〜",
+    detail_class: "パフォーマンス",
+    abst: "切り抜きバレエコンサート",
+    explanation: "埼大初上陸！「見るものを限定しない公演を」と掲げ古典バレエの切抜き版を披露。発足:武蔵野美術大学有志学生",
+    logo: "tinytheater",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
+  },
+  {
+    number: "31",
+    group: "TinyTheater",
+    class: "パフォマ",
+    area: null,
+    area_num: null,
+    room: null,
+    room_num: null,
+    show_place: "サル山",
+    name: "Park Ballet〜公園で公演〜",
+    detail_class: "パフォーマンス",
+    abst: "切り抜きバレエコンサート",
+    explanation: "埼大初上陸！「見るものを限定しない公演を」と掲げ古典バレエの切抜き版を披露。発足:武蔵野美術大学有志学生",
+    logo: "tinytheater",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
+  },
+  {
+    number: "31",
+    group: "TinyTheater",
+    class: "パフォマ",
+    area: null,
+    area_num: null,
+    room: null,
+    room_num: null,
+    show_place: "サル山",
+    name: "Park Ballet〜公園で公演〜",
+    detail_class: "パフォーマンス",
+    abst: "切り抜きバレエコンサート",
+    explanation: "埼大初上陸！「見るものを限定しない公演を」と掲げ古典バレエの切抜き版を披露。発足:武蔵野美術大学有志学生",
+    logo: "tinytheater",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
+  },
+  {
+    number: "31",
+    group: "TinyTheater",
+    class: "パフォマ",
+    area: null,
+    area_num: null,
+    room: null,
+    room_num: null,
+    show_place: "サル山",
+    name: "Park Ballet〜公園で公演〜",
+    detail_class: "パフォーマンス",
+    abst: "切り抜きバレエコンサート",
+    explanation: "埼大初上陸！「見るものを限定しない公演を」と掲げ古典バレエの切抜き版を披露。発足:武蔵野美術大学有志学生",
+    logo: "tinytheater",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
+  },
+  {
+    number: "31",
+    group: "TinyTheater",
+    class: "パフォマ",
+    area: null,
+    area_num: null,
+    room: null,
+    room_num: null,
+    show_place: "サル山",
+    name: "Park Ballet〜公園で公演〜",
+    detail_class: "パフォーマンス",
+    abst: "切り抜きバレエコンサート",
+    explanation: "埼大初上陸！「見るものを限定しない公演を」と掲げ古典バレエの切抜き版を披露。発足:武蔵野美術大学有志学生",
+    logo: "tinytheater",
+    X: null,
+    Instagram: null,
+    youtube: null,
+    HP: null,
+    link: null
+  },
 ];
 //場所はifで整理しておく
 Object.keys(dataset_intro).forEach((key) => {
   let place;
-if(dataset_intro[key]["show_place"] !== null){
-  place = dataset_intro[key]["show_place"];
-}
-else if(dataset_intro[key]["room"] !== null){
-  if(dataset_intro[key]["room_num"] !== null){
-    place = `${dataset_intro[key]["room"]}${dataset_intro[key]["room_num"]}教室`
+  if (dataset_intro[key]["show_place"] !== null) {
+    place = dataset_intro[key]["show_place"];
   }
-  else{
-    place = `${dataset_intro[key]["room"]}`
+  else if (dataset_intro[key]["room"] !== null) {
+    if (dataset_intro[key]["room_num"] !== null) {
+      place = `${dataset_intro[key]["room"]}${dataset_intro[key]["room_num"]}教室`
+    }
+    else {
+      place = `${dataset_intro[key]["room"]}`
+    }
   }
-}
-else if(dataset_intro[key]["area"]){
-  place = `${dataset_intro[key]["area"]}${dataset_intro[key]["area_num"]}`
-}
-const content_group = `
+  else if (dataset_intro[key]["area"]) {
+    place = `${dataset_intro[key]["area"]}${dataset_intro[key]["area_num"]}`
+  }
+  const content_group = `
 <button id="open${dataset_intro[key]["number"]}" class="motalWindow">
   <div class="group__ttl">
     <div class="group__icon"></div>
@@ -2007,7 +2794,7 @@ const content_group = `
   <p>${dataset_intro[key]["group"]}</p>
   <img class="group__logo" src="img/grouplogo2/${dataset_intro[key]["logo"]}.jpg" data-src="img/grouplogo60px/${dataset_intro[key]["logo"]}.jpg" alt="${dataset_intro[key]["group"]}のロゴ">
     <div class="place__category__inner">
-      <p class="abst">${dataset_intro[key]["abst"]}</p>
+      <p class=abst>${dataset_intro[key]["abst"]}</p>
       <p class="place">${place}</p>
       <div class="category">
         <div class="marker__green__white kikaku__kind">${dataset_intro[key]["class"]}</div>
@@ -2018,52 +2805,70 @@ const content_group = `
   <button id="close${dataset_intro[key]["number"]}" class="close__modal">閉じる</button>
 </section>
 <div id="mask"></div>`;
-motalWindow.insertAdjacentHTML('beforeend', content_group);
+  motalWindow.insertAdjacentHTML('beforeend', content_group);
 });
 
 Object.keys(dataset_intro).forEach((key) => {
-  console.log(dataset_intro[key]["Instagram"]);
   const SNS = document.querySelector("#SNS" + dataset_intro[key]["number"]);
-  if(dataset_intro[key]["X"] !== null){
+  if (dataset_intro[key]["X"] !== null) {
     const content_X = `
     <a href="${dataset_intro[key]["X"]}">
-      <img src="x_logo.svg" alt="xのロゴ">
+      <img src="img/pageimg/x_logo.svg" alt="xのロゴ">
     </a>`;
     SNS.insertAdjacentHTML('beforeend', content_X);
   }
-  if(dataset_intro[key]["Instagram"] !== null){
+  if (dataset_intro[key]["Instagram"] !== null) {
     const content_instageram = `
     <a href="${dataset_intro[key]["Instagram"]}">
-      <img src="instagram_logo.png" alt="instagramのロゴ">
+      <img src="img/pageimg/instagram_logo.png" alt="instagramのロゴ">
     </a>`;
     SNS.insertAdjacentHTML('beforeend', content_instageram);
   }
-  if(dataset_intro[key]["youtube"] !== null){
+  if (dataset_intro[key]["youtube"] !== null) {
     const content_youtube = `
     <a href="${dataset_intro[key]["youtube"]}">
-        <img src="youtube_logo.svg" alt="youtubeのロゴ">
+        <img src="img/pageimg/youtube_logo.svg" alt="youtubeのロゴ">
     </a>`;
     SNS.insertAdjacentHTML('beforeend', content_youtube);
   }
-  if(dataset_intro[key]["HP"] !== null){
+  if (dataset_intro[key]["HP"] !== null) {
     const content_HP = `
     <a href="${dataset_intro[key]["HP"]}">
-        <img src="HP_logo.svg" alt="HPのロゴ">
+        <img src="img/pageimg/HP_logo.svg" alt="HPのロゴ">
     </a>`;
     SNS.insertAdjacentHTML('beforeend', content_HP);
   }
-  if(dataset_intro[key]["link"] !== null){
+  if (dataset_intro[key]["link"] !== null) {
     const content_link = `
     <a href="${dataset_intro[key]["link"]}">
-        <img src="link_logo.svg" alt="linkのロゴ">
+        <img src="img/pageimg/link_logo.svg" alt="linkのロゴ">
     </a>`;
     SNS.insertAdjacentHTML('beforeend', content_link);
   }
 });
 
 $('.motalWindow').click(function () {
-  $('.group__logo').each(function(){
-      var img = $(this);
-      img.attr('src', img.data('src'));
+  $('.group__logo').each(function () {
+    var img = $(this);
+    img.attr('src', img.data('src'));
   });
 });
+
+// let tree = JSON.parse(dataset_intro);
+// const GetElement = (tree, targetKey, searchValue, childrenKey) => {
+//   let data = null;
+//   for (const i in tree) {
+//       //console.log(tree[i]);
+//       if (tree[i][targetKey] == searchValue) {
+//           data = tree[i];
+//           break;
+//       }
+//       if (tree[i][childrenKey]) {
+//           data = GetElement(tree[i][childrenKey], targetKey, searchValue, childrenKey);
+//       }
+//       if (data) {
+//           break;
+//       }
+//   }
+//   return data;
+// }

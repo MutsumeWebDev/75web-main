@@ -173,3 +173,4 @@ for (let i = 0; i < dataset_support.length; i++){
     }
     support.insertAdjacentHTML('beforeend', content_support);
 }
+

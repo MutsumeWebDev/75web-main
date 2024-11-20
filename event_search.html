@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第75回むつめ祭公式ウェブサイト</title>
+    <meta name="description" content="第75回むつめ祭の公式ウェブサイトです。「Pop Tone」をテーマに、キャンパス中に広がる緑豊かな景色の中で、学生が一丸となって企画したさまざまな展示やパフォーマンスがむつめ祭を華やかに彩ります。">
+    <link rel="icon" href="icon.jpg" sizes="16x16" type="image/png">
+
+    <!--layout-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider.css">
+    <!-- <link rel="stylesheet" href="slider.css"> -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./menu.css">
+    <!--javascript-->
+    <script type="text/javascript" src="js/system.js" defer></script>
+    <script type="text/javascript" src="js/support.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/slider.js" defer></script>
+    <script type="text/javascript" src="js/loading.js" defer></script>
+    <script type="text/javascript" src="js/script.js" defer></script>
+</head>
+<body>
+    <div id="loading">
+        <p>Loading...</p>
+        <div id="loading-screen"></div>
+    </div>
+    <div class="menu">
+        <div class="overlay"></div>
+        <div class="fab"></div>
+        <dl>
+          <dt><span>企画をさがす</span><span class="fa fa-#{icon}"></span></dt>
+          <!-- <dd><span>企画検索</span><span class="fa fa-#{icon}"></span></dd> -->
+          <dt><span>ご案内</span><span class="fa fa-#{icon}"></span></dt>
+          <dt><span>むつめ祭について</span><span class="fa fa-#{icon}"></span></dt>
+          <!-- <li><span>Photos</span><span class="fa fa-#{icon}"></span></li>
+          <li><span>Messages</span><span class="fa fa-#{icon}"></span></li> -->
+        </dl>
+      </div>
+    </div>
+    <!--header-->
+    <noscript>
+        <div class="important" style="margin: 5rem 10% 0 10%;">
+            <p>
+                <strong>JavaScriptの設定を変更してください。</strong><br>
+                当サイトではJavaScriptを使用しています。オフになっている場合メニューなどの機能が大幅に制限される可能性があります。
+            </p>
+        </div>
+    </noscript>
+    <script>
+
+    </script>
+    <header>
+    <div class="header">
+        <div class="top__header">
+            <a class="top__ttl" href="index.html">
+                <img  src="img/pageimg/icon.jpg" alt="">
+                <!-- svg挿入予定 -->
+                <div class="75thmutsume">
+                    <p>第75回</p>
+                    <p class="mutsume">むつめ祭</p>
+                </div>
+            </a>
+        </div>
+    </header>
+    <main>
+        <main>
+            <section class="detail__page">
+                <div class="detail__ttl">
+                    <h2 class="slider__ttl">企画検索</h2>
+                </div>
+                <section class="detail__content">
+                    <div class="search__page">
+                        <input class="search__word" placeholder="キーワードを入力" type="text" value name="searchText">
+                        <div class="search__date">
+                            <button type="button" id="buttonSummeryf">
+                                <p>日時からさがす</p>
+                            </button>
+                            <div class="hidden button__inner searchdate" id="buttonInnerf">
+                                <label for="inputdate1" class="block">
+                                    <input class="hidden" type="checkbox" id="inputdate1" name="date1" value="23">
+                                    <span class="" id="date1">23日</span>
+                                </label>
+                                <label for="inputdate2" class="block">
+                                    <input class="hidden" type="checkbox" id="inputdate2" name="date2" value="24">
+                                    <span class="" id="date2">24日</span>
+                                </label>
+                                <label for="inputdate3" class="block">
+                                    <input class="hidden" type="checkbox" id="inputdate3" name="date3" value="25">
+                                    <span class="" id="date3">25日</span>
+                                </label>
+                            </div>
+                        </div>
+                        <button type="button" id="buttonSummerys" class="search__place">
+                            <p>場所からさがす</p>
+                        </button>
+                        <div class="hidden button__inner searchplace" id="buttonInners">
+                            <label for="inputplace1" class="block">
+                                <input class="hidden" type="checkbox" id="inputplace1" name="place1" value="a">
+                                <span class="" id="place1">屋外区画A</span>
+                            </label>
+                            <label for="inputplace2" class="block">
+                                <input class="hidden" type="checkbox" id="inputplace2" name="place2" value="b">
+                                <span class="" id="place2">屋外区画B</span>
+                            </label>
+                            <label for="inputplace3" class="block">
+                                <input class="hidden" type="checkbox" id="inputplace3" name="place3" value="c">
+                                <span class="" id="place3">屋外区画C</span>
+                            </label>
+                            <label for="inputplace4" class="block">
+                                <input class="hidden" type="checkbox" id="inputplace4" name="place4" value="d">
+                                <span class="" id="place4">屋外区画D</span>
+                            </label>
+                            <label for="inputplace5" class="block">
+                                <input class="hidden" type="checkbox" id="inputplace5" name="place5" value="e">
+                                <span class="" id="place5">屋外区画E</span>
+                            </label>
+                            <label for="inputplace6" class="block">
+                                <input class="hidden" type="checkbox" id="inputplace6" name="place6" value="f">
+                                <span class="" id="place6">全学講義棟1号館</span>
+                            </label>
+                            <label for="inputplace7" class="block">
+                                <input class="hidden" type="checkbox" id="inputplace7" name="place7" value="g">
+                                <span class="" id="place7">全学講義棟2号館</span>
+                            </label>
+                            <label for="inputplace8" class="block">
+                                <input class="hidden" type="checkbox" id="inputplace8" name="place8" value="h">
+                                <span class="" id="place8">全学講義棟3号館</span>
+                            </label>
+                            <label for="inputplace9" class="block">
+                                <input class="hidden" type="checkbox" id="inputplace9" name="place9" value="i">
+                                <span class="" id="place9">教養学部棟</span>
+                            </label>
+                            <label for="inputplace10" class="block">
+                                <input class="hidden" type="checkbox" id="inputplace10" name="place10" value="j">
+                                <span class="" id="place10">教育学部A棟</span>
+                            </label>
+                            <label for="inputplace11" class="block">
+                                <input class="hidden" type="checkbox" id="inputplace11" name="place11" value="k">
+                                <span class="" id="place11">メインステージ</span>
+                            </label>
+                            <label for="inputplace12" class="block">
+                                <input class="hidden" type="checkbox" id="inputplace12" name="place12" value="l">
+                                <span class="" id="place12">サル山</span>
+                            </label>
+                            <label for="inputplace13" class="block">
+                                <input class="hidden" type="checkbox" id="inputplace13" name="place13" value="m">
+                                <span class="" id="place13">大学会館</span>
+                            </label>
+                            <label for="inputplace14" class="block">
+                                <input class="hidden" type="checkbox" id="inputplace14" name="place14" value="n">
+                                <span class="" id="place14">第2食堂</span>
+                            </label>
+                            <label for="inputplace15" class="block">
+                                <input class="hidden" type="checkbox" id="inputplace15" name="place15" value="o">
+                                <span class="" id="place15">総合体育館</span>
+                            </label>
+                            <label for="inputplace16" class="block">
+                                <input class="hidden" type="checkbox" id="inputplace16" name="place16" value="p">
+                                <span class="" id="place16">第一体育館</span>
+                            </label>
+                            <label for="inputplace17" class="block">
+                                <input class="hidden" type="checkbox" id="inputplace17" name="place17" value="q">
+                                <span class="" id="place17">グラウンド</span>
+                            </label>
+                        </div>
+                        <button type="button" id="buttonSummeryt" class="search__tag">
+                            <p>カテゴリからさがす</p>
+                        </button>
+                        <div class="hidden button__inner__tag" id="buttonInnert">
+                            <p>・飲食</p>
+                            <div class="tag__category">
+                                <label for="inputtag12" class="block">
+                                    <input class="hidden" type="checkbox" id="inputtag12" name="tag12" value="1">
+                                    <span class="" id="tag12">#軽食</span>
+                                </label>
+                                <label for="inputtag13" class="block">
+                                    <input class="hidden" type="checkbox" id="inputtag13" name="tag13" value="2">
+                                    <span class="" id="tag13">#スイーツ</span>
+                                </label>
+                                <label for="inputtag14" class="block">
+                                    <input class="hidden" type="checkbox" id="inputtag14" name="tag14" value="3">
+                                    <span class="" id="tag14">#飲み物・カフェ</span>
+                                </label>
+                                <label for="inputtag15" class="block">
+                                    <input class="hidden" type="checkbox" id="inputtag15" name="tag15" value="4">
+                                    <span class="" id="tag15">#その他</span>
+                                </label>
+                            </div>
+                            <p>・音楽</p>
+                            <div class="tag__category">
+                                <label for="inputtag22" class="block">
+                                    <input class="hidden" type="checkbox" id="inputtag22" name="tag22" value="1">
+                                    <span class="" id="tag22">#バンド</span>
+                                </label>
+                                <label for="inputtag23" class="block">
+                                    <input class="hidden" type="checkbox" id="inputtag23" name="tag23" value="2">
+                                    <span class="" id="tag23">#楽器演奏</span>
+                                </label>
+                                <label for="inputtag24" class="block">
+                                    <input class="hidden" type="checkbox" id="inputtag24" name="tag24" value="3">
+                                    <span class="" id="tag24">#合唱・アカペラ</span>
+                                </label>
+                                <label for="inputtag25" class="block">
+                                    <input class="hidden" type="checkbox" id="inputtag25" name="tag25" value="4">
+                                    <span class="" id="tag25">その他</span>
+                                </label>
+                            </div>
+                            <p>・展示</p>
+                            <div class="tag__category">
+                                <label for="inputtag32" class="block">
+                                    <input class="hidden" type="checkbox" id="inputtag32" name="tag32" value="1">
+                                    <span class="" id="tag32">#文化・創作</span>
+                                </label>
+                                <label for="inputtag33" class="block">
+                                    <input class="hidden" type="checkbox" id="inputtag33" name="tag33" value="2">
+                                    <span class="" id="tag33">#技術</span>
+                                </label>
+                                <label for="inputtag34" class="block">
+                                    <input class="hidden" type="checkbox" id="inputtag34" name="tag34" value="3">
+                                    <span class="" id="tag34">#社会</span>
+                                </label>
+                                <label for="inputtag35" class="block">
+                                    <input class="hidden" type="checkbox" id="inputtag35" name="tag35" value="4">
+                                    <span class="" id="tag35">#物販</span>
+                                </label>
+                                <label for="inputtag36" class="block">
+                                    <input class="hidden" type="checkbox" id="inputtag36" name="tag36" value="5">
+                                    <span class="" id="tag36">その他</span>
+                                </label>
+                            </div>
+                            <p>・参加型</p>
+                            <div class="tag__category">
+                                <label for="inputtag42" class="block">
+                                    <input class="hidden" type="checkbox" id="inputtag42" name="tag42" value="1">
+                                    <span class="" id="tag42">#ゲーム</span>
+                                </label>
+                                <label for="inputtag43" class="block">
+                                    <input class="hidden" type="checkbox" id="inputtag43" name="tag43" value="2">
+                                    <span class="" id="tag43">#アクティビティ</span>
+                                </label>
+                                <label for="inputtag44" class="block">
+                                    <input class="hidden" type="checkbox" id="inputtag44" name="tag44" value="3">
+                                    <span class="" id="tag44">#製作</span>
+                                </label>
+                                <label for="inputtag45" class="block">
+                                    <input class="hidden" type="checkbox" id="inputtag45" name="tag45" value="4">
+                                    <span class="" id="tag45">#バラエティー</span>
+                                </label>
+                                <label for="inputtag46" class="block">
+                                    <input class="hidden" type="checkbox" id="inputtag46" name="tag46" value="5">
+                                    <span class="" id="tag46">その他</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="result__column">
+                            <div class="display__num">
+                                <p>表示件数</p>
+                                <select id="display__num">
+                                    <option value="10">10</option>
+                                    <option value="20">20</option>
+                                    <option value="50">50</option>
+                                    <option value="100">100</option>                          
+                                </select>
+                            </div>
+                            <button id="buttonResult" class="button__result">
+                                <span>検索する</span>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+    </main>
+    <!--footer-->
+    <footer>
+        <section class="footer">
+            <section class="contact">
+                <h3 class="contact__ttl">CONTACT</h3>
+                <dl class="address">
+                    <dt class="address__ttl">住所</dt>
+                    <dd class="address__content">〒338-8570<br>
+                    埼玉県さいたま市桜区下大久保255 埼玉大学内</dd>
+                    <dt class="address__ttl">Email</dt>
+                    <dd class="address__content">staff[at]mutsume.com <br>([at]を@に変えてください。)</dd>
+                </dl>
+            </section>
+            <section class="fotter__bottom">
+                <div class="fotter__ttl">
+                    <img src="img/pageimg/committee_logo.png" alt="委員会ロゴ">
+                    <h2>第75回むつめ祭</h2>
+                </div>
+                <div class="SNS_icon">
+                    <a href="https://x.com/mutsume_fes">
+                        <img src="img/pageimg/x_logo.svg" alt="xのロゴ">
+                    </a>
+                    <a href="https://www.instagram.com/mutsume_fes/">
+                        <img src="img/pageimg/instagram_logo.png" alt="">
+                    </a>
+                    <a href="https://youtube.com/channel/UCs0YR5YGuo0cAUmU9_i7xDg?feature=shared">
+                        <img src="img/pageimg/youtube_logo.svg" alt="">
+                    </a>
+                </div>
+            </section>
+        </section>
+    </footer>
+    <script>
+        const categoryButton = [document.querySelector('#buttonSummeryf'), document.querySelector('#buttonSummerys'), document.querySelector('#buttonSummeryt')];
+        const buttonInner = [document.querySelector('#buttonInnerf'), document.querySelector('#buttonInners'), document.querySelector('#buttonInnert')];
+        for(let i = 0; i < 3; i++){
+            categoryButton[i].addEventListener('click', () => {
+                buttonInner[i].classList.toggle('hidden');
+            });
+        };
+    </script>
+    <script>
+        // let idname1 = {};
+        // let idname2 = {};
+        // let idname3 = {};
+        // let idname4 = {};
+        // let idname5 = {};
+        // let idname6 = {};
+        // let idname = [idname1, idname2, idname3, idname4, idname5, idname6];
+        // const names = ['date', 'place', 'tag1', 'tag2', 'tag3', 'tag4'];
+        // const nums = [3, 17, 5, 5, 6, 6];
+        // for(let i = 1; i < 7; i++){
+        //     for(let j = 1; j < nums[i-1] + 1; j++){
+        //         idname[i][j] = names[i-1] + j;
+        //     };
+        // };
+        // console.log(idname);
+        // for (let i = 1; i < 7; i++) {
+        //     for (let j = 1; j < nums[i-1] + 1; j++) {
+        //         let input = document.querySelector('#input' + idname[i][j]);
+        //         let color = document.querySelector('#' + idname[i][j]);
+        //         console.log(color);
+        //         input.addEventListener('click', () => {
+        //             color.classList.toggle('clicked');
+        //         });
+        //     };
+        // };
+        const idname = [];
+        const names = ['date', 'place', 'tag1', 'tag2', 'tag3', 'tag4'];
+        const nums = [3, 17, 5, 5, 6, 6];
+
+        // idname を初期化
+        for (let i = 0; i < 6; i++) {
+            idname[i] = [];
+            for (let j = 1; j <= nums[i]; j++) {
+                idname[i][j] = names[i] + j;
+            }
+        }
+        console.log(idname);
+
+        // イベントリスナーを設定
+        for (let i = 0; i < 6; i++) {
+            for (let j = 1; j <= nums[i]; j++) {
+                const input = document.querySelector('#input' + idname[i][j]);
+                const color = document.querySelector('#' + idname[i][j]);
+                console.log(color);
+
+                // DOM 要素の存在を確認
+                if (input && color) {
+                    input.addEventListener('click', () => {
+                        color.classList.toggle('clicked')
+                    });
+                } else {
+                    console.warn(`Element not found: #input${idname[i][j]} or #${idname[i][j]}`);
+                }
+            }
+        }
+    </script>
+</body>
+</html>

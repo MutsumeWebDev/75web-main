@@ -29,8 +29,8 @@ body{
   right: 0;
   height: 9.64286vw;
   width: 100%;
-  -webkit-mask: url(top__wave__big.svg);
-  mask: url(top__wave__big.svg);
+  -webkit-mask: url(img/pageimg/top__wave__big.svg);
+  mask: url(img/pageimg/top__wave__big.svg);
   -webkit-mask-size: 100% 9.64286vw;
   mask-size: 100% 9.64286vw;
   -webkit-mask-position: center top;
@@ -46,8 +46,8 @@ body{
   right: 0;
   height: 9.64286vw;
   width: 100%;
-  -webkit-mask: url(img_bg-snow.png);
-  mask: url(img_bg-snow.png);
+  -webkit-mask: url(img/pageimg/img_bg-snow.png);
+  mask: url(img/pageimg/img_bg-snow.png);
   -webkit-mask-size: 100% 9.64286vw;
   mask-size: 100% 9.64286vw;
   -webkit-mask-position: center top;
