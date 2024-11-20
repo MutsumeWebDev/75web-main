@@ -23,7 +23,7 @@ for (let i = 0; i < dataset.length; i++){
     const content = `<li class="c-archive-item">
                       <a href="${url}" target="">
                         <div class="c-archive-item__thumb">
-                          <img alt="${title}" src="${img}">
+                          <img alt="${title}" src="img/pageimg/${img}">
                         </div>
                         <div class="c-archive-item__name">${title}</div>
                       </a>
@@ -46,25 +46,9 @@ const headerAnimation = () =>{
 }
 window.addEventListener('scroll', headerAnimation);
 
-//menubar
-const menuOpen = document.querySelector('#menu_open');
-menuOpen.addEventListener('click', () => {
-    menuOpen.classList.add(menu_on);
-});
-
-//footer
-const footer = document.querySelector('#footer');
-
-const dataset_footer = [
-    {
-        title: '',
-        url: '',
-    },
-];
 
 // for (let i = 0; i < dataset_footer.length; i++){
 //     const {title, img, url} = dataset[i];
 //     const content = `<div class="footere__content"><a href="${url}"><img src="${img}" alt="${title}"><h2>${title}</h2></a></div>`;
 //     slider.insertAdjacentHTML('beforeend', content);
 // }
-

@@ -14,34 +14,33 @@ body {
   height: 100dvh;
   overflow: hidden;
   pointer-events: none;
-
 }
 
 .menu.active{
   pointer-events: initial;
 }
 
-/**.menu.active ul,.menu.active .overlay,.menu.active .fab{
+/**.menu.active dl,.menu.active .overlay,.menu.active .fab{
   position: absolute;
 }**/
 
-.menu.active ul li {
+.menu.active dl dt {
   opacity: 1;
   transform: none;
 }
-.menu.active ul li:nth-child(5) {
+.menu.active dl dt:nth-child(5) {
   transition: opacity 0.3s 0.5s ease, transform 0.3s 0.5s cubic-bezier(0.28, 0.55, 0.385, 1.65), color 0.3s ease;
 }
-.menu.active ul li:nth-child(4) {
+.menu.active dl dt:nth-child(4) {
   transition: opacity 0.3s 0.6s ease, transform 0.3s 0.6s cubic-bezier(0.28, 0.55, 0.385, 1.65), color 0.3s ease;
 }
-.menu.active ul li:nth-child(3) {
+.menu.active dl dt:nth-child(3) {
   transition: opacity 0.3s 0.7s ease, transform 0.3s 0.7s cubic-bezier(0.28, 0.55, 0.385, 1.65), color 0.3s ease;
 }
-.menu.active ul li:nth-child(2) {
+.menu.active dl dt:nth-child(2) {
   transition: opacity 0.3s 0.8s ease, transform 0.3s 0.8s cubic-bezier(0.28, 0.55, 0.385, 1.65), color 0.3s ease;
 }
-.menu.active ul li:nth-child(1) {
+.menu.active dl dt:nth-child(1) {
   transition: opacity 0.3s 0.9s ease, transform 0.3s 0.9s cubic-bezier(0.28, 0.55, 0.385, 1.65), color 0.3s ease;
 }
 .menu.active .overlay {
@@ -63,14 +62,14 @@ body {
 .menu.active .fab:after {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
-.menu ul {
+.menu dl {
   position: absolute;
   right: 30px;
   bottom: 86px;
   text-align: right;
   z-index: 202;
 }
-.menu ul li {
+.menu dl dt {
   margin: 30px 0;
   font-size: 16px;
   font-weight: 300;
@@ -80,10 +79,10 @@ body {
   transition: 0.3s ease;
   cursor: pointer;
 }
-.menu ul li:hover {
+.menu dl dt:hover {
   color: #2EACD8;
 }
-.menu ul li .fa {
+.menu dl dt .fa {
   width: 20px;
   margin: 0 0 0 20px;
   text-align: center;
@@ -104,7 +103,8 @@ body {
   position: absolute;
   right: 30px;
   bottom: 30px;
-  background: #28ACD8;
+  background: white;
+  border: solid 3px #fdf573;
   width: calc(var(--radius)*2);
   height: calc(var(--radius)*2);
   border-radius: 100%;
@@ -119,7 +119,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  background: #516F83;
+  background: #2EACD8;
   width: 20px;
   height: 2px;
   border-radius: 4px;
