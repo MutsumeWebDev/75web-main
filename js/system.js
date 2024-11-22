@@ -23,7 +23,7 @@ for (let i = 0; i < dataset.length; i++){
     const content = `<li class="c-archive-item">
                       <a href="${url}" target="">
                         <div class="c-archive-item__thumb">
-                          <img alt="${title}" src="img/pageimg/${img}">
+                          <img alt="${title}" src="img/pageimg/${img}" loading="lazy", decoding="async">
                         </div>
                         <div class="c-archive-item__name">${title}</div>
                       </a>
